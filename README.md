@@ -6,7 +6,6 @@
 
 `SEMESTRE` - Eixo 2 (2° semestre)
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 O projeto aqui desenvolvido é um boletim online, que visa facilitar o acesso aos conceitos e notas dos alunos sempre que for necessário pelo o professor, para que ele possa escolha melhor a abordagem para aquele grupo de alunos, além de que será mais ágil atribuir notas e conceitos a estes indivíduos sem que este faça uso de inúmeras folhas de papel.
 
