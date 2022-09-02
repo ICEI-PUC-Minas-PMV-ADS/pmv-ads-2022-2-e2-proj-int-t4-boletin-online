@@ -1,23 +1,30 @@
-# TÍTULO DO PROJETO
+# Boletim online
 
-`CURSO`
+`CURSO` - Tecnologia em análise de desenvolvimento de sistemas
 
-`DISCIPLINA`
+`DISCIPLINA`- Projeto: Desenvolvimento de uma Aplicação Interativa - Turma 4
 
-`SEMESTRE`
+`SEMESTRE` - Eixo 2 (2° semestre)
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
-## Integrantes
+O projeto aqui desenvolvido é um boletim online, que visa facilitar o acesso aos conceitos e notas dos alunos sempre que for necessário pelo o professor, para que ele possa escolha melhor a abordagem para aquele grupo de alunos, além de que será mais ágil atribuir notas e conceitos a estes indivíduos sem que este faça uso de inúmeras folhas de papel.
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Aos pais, alunos e gestores do mesmo modo podem acessar de forma mais fácil e rápida os resultados dos alunos no momento que for mais conveniente. 
+
+
+## Integrantes:
+
+* Francisco Costa Ribeiro
+* Neemias Junior Anjos Lopes
+* Ricardo Peixoto da Silva
+* Sandra Matos Rodrigues
+* Thais Gurgel Bezerra
+* Tiago Del Puppo Favilla Lobo 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Carlos Alberto Marques Pietrobon
 
 ## Instruções de utilização
 
