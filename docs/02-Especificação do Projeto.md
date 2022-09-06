@@ -8,19 +8,13 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+1 - Antônio Geraldo tem 35 anos, é professor e funcionário de uma escola de ensino fundamental.  Gosta de ser organizado e manter as informações que necessita para o trabalho em seu computador.  
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+2 - Pedro Lopes tem 16 anos, é estudante, e está no primeiro ano do ensino médio. Gosta muito de tecnologia e adora jogos de video game.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+3 - Ana Maria tem 40 anos, é dona de casa e mãe de dois filhos, um de 17 anos e um de 13 anos. Gosta de acompanhar o desempenho de seus filhos na escola, e sempre os encoraja a estudarem mais.
+
+4 - Marta dos Santos tem 38 anos, é coordenadora de uma escola de ensino fundamental e médio. Busca uma maneira de facilitar o seu trabalho e dos professores.
 
 ## Histórias de Usuários
 
@@ -28,17 +22,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Antonio Geraldo  | Fazer o lançamento das notas dos alunos de uma maneira mais prática e rápida          | Para otimizar o meu trabalho e meu tempo               |
+|Antonio Geraldo      | Consultar as notas dos alunos a qualquer momento de uma maneira simples e rápida                | Para conseguir as informações necessárias o mais rápido e simples possível |
+|Pedro Lopes      | Consultar as minhas notas a qualquer momento e em qualquer lugar              | Para poder estudar e melhorar meu desempenho em matérias específicas |
+|Ana Maria      | Consultar as notas dos meus filhos a qualquer momento e em qualquer lugar              | Para poder saber o desempenho deles na escolas |
+|Marta dos Santos    | Consultar notas dos alunos de maneira prática e rápida             | Para poder tomar devidas atitudes perante os pais dos alunos  |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
