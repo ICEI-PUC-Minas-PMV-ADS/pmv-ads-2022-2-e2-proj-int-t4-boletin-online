@@ -55,8 +55,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); | ALTA | 
+|RNF-002|O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |  ALTA | 
+|RNF-003|O site deve ter bom nível de contraste entre os elementos da tela em conformidade  |  MÉDIA | 
+|RNF-004|O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
+|RNF-005|O sistema deverá se comunicar com o banco SQL server |  ALTA | 
+|RNF-006|O sistema deverá ser implementado na linguagem C#, linguagem HTML, CSS e JavaScript |  ALTA | 
+|RNF-007|O sistema só pode ser acessado por professores ou  coordenadores ligados à escola. |  ALTA | 
+|RNF-008|O site deve apresentar na página principal o login com seletor de usuário: coordenador, professor e aluno/responsável |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
