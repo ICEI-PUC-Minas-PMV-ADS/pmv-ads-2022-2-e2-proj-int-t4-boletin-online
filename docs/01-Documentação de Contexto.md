@@ -1,27 +1,32 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O consumo de papel está diretamente ligado ao patamar de modernidade e eficácia que uma empresa possui, ainda mais se falando de uma empresa que está a preparar as futuras gerações para essas grandes e necessárias mudanças, a saber as instituições escolares.
+
+Uma pesquisa feita em 2013 pela Enterprise Content Management Maturity Model (ECM3) revelou que o Brasil ainda está entre o nível 1 e 2 na adoção das melhores práticas de gestão da informação (a escala vai até o nível 5), o que comprova a ineficiência na organização dos processos internos das empresas nacionais. 
+
+Sensíveis a essa situação há uma ideia que se dispõe a contribuir para diminuição do consumo de papel em uma das diversas atividades corriqueiras dentro de uma escola, a entrega de resultados dos alunos aos pais e ou responsáveis, como é algo frequente, no mínimo cada aluno deverá ter consumido quatro cópias do documento, salvo cópias extraviadas, rasuradas e ou perdidas. 
+
+Com o objetivo de facilitar o acesso ao progresso dos alunos bem como a manipulação dos dados a eles pertencentes, é de fundamental importância uma ferramenta que viabilize a visualização e a alteração de tais dados, evitando o consumo desenfreado de cópias em papel a todos os interessados no processo.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+O problema que pretendemos resolver é minimizar a quantidade de papéis utilizados para apresentação de notas e conceitos de alunos, por meio do famoso documento conhecido por boletim escolar, além de facilitar o acesso ao documento aos pais e responsáveis e a manipulação dos dados referentes a estes alunos, seja pela coordenação ou pelos próprios professores.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo deste trabalho é a criação de um site de acesso restrito de notificações específicas referente às notas de um aluno, notificações essas que visam divulgar seu desempenho escolar.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+#### Objetivos específicos:
+
+Facilitar a manipulação de notas e conceitos referentes aos alunos, manipulação essa feita pelos membros da coordenação ou pelo próprio professor; 
+
+Tornar mais fácil o acesso dos pais e responsáveis aos conceitos e notas do aluno a qual ele acompanha;
+
+Minimizar o problema do alto consumo de papel para impressão de cópias do boletim escolar.
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
