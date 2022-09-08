@@ -81,8 +81,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser conduzido com os direcionamentos do professor orientador. |
+|02| A equipe terá reuniões com o professor orientador às segundas-feiras às  19:30 horas.      |
+|03| O projeto deverá estar em conformidade com o escopo disponibilizado pela PUC Minas. |
+|04| O prazo para entrega final do projeto é 11/12/2022        |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
