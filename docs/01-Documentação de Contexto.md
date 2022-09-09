@@ -30,22 +30,17 @@ Minimizar o problema do alto consumo de papel para impressão de cópias do bole
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Além de diminuir custos é uma obrigação de toda empresa diminuir o consumo de papel pois está diretamente ligado a sua pegada ecológica,  demonstra o quanto está disposto a diminuir sua pegada a torna mais competitiva, levantamentos feitos em 2015 pela Escola Superior de Propaganda e Marketing (ESPM-RJ), 57% dos consumidores preferem comprar produtos de empresas que possuem práticas de sustentabilidade ambiental.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Ter acesso aos conceitos e notas dos alunos a todo instante que for necessário fará com que o professor escolha melhor a abordagem para aquele grupo de alunos, além de que será mais ágil atribuir notas e conceitos a estes indivíduos sem inúmeras folhas de papel ao seu redor.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Aos pais e gestores do mesmo modo podem acessar de forma mais rápida os resultados dos alunos no momento que for mais conveniente. 
+
+Paralelamente, há uma falta de mecanismos que auxiliem na visualização das notas e resultados obtidos pelos alunos a todo instante, bem como uma ferramenta que facilita a inserção de novos dados bem como sua alteração se necessária.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Embora todos as pessoas possam se beneficiar com projeto pelo fato da diminuição no consumo de papel, o foco deste trabalho está no público que tem atividades relacionadas ao tratamento de dados sobre os alunos de uma determinada instituição de ensino, funcionários da coordenação da instituição e os seus responsáveis legais pelos alunos, na maior parte das vezes seus pais. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Desta forma, estabeleceu-se como público-alvo deste projeto homens, mulheres e adolescentes entre 15 e 70 anos que se encontram de algum modo envolvidos no processo de acompanhamento de resultados escolares de crianças e adolescentes, que possuam acesso a rede de comunicação e que fazem uso frequente de computadores e dispositivos móveis.
