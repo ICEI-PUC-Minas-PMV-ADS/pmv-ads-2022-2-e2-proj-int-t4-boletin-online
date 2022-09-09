@@ -9,8 +9,13 @@
 
 O projeto aqui desenvolvido é um boletim online, que visa facilitar o acesso aos conceitos e notas dos alunos sempre que for necessário pelo o professor, para que ele possa escolha melhor a abordagem para aquele grupo de alunos, além de que será mais ágil atribuir notas e conceitos a estes indivíduos sem que este faça uso de inúmeras folhas de papel.
 
-Aos pais, alunos e gestores do mesmo modo podem acessar de forma mais fácil e rápida os resultados dos alunos no momento que for mais conveniente. 
+Aos pais, alunos e gestores do mesmo modo podem acessar de forma mais fácil e rápida os resultados dos alunos no momento que for mais conveniente.
 
+Abaixo uma breve apresentação do projeto:
+
+https://user-images.githubusercontent.com/103431797/189370101-f662b4e7-99dd-4527-b376-3c25df05460f.mp4
+
+##
 
 ## Integrantes:
 
