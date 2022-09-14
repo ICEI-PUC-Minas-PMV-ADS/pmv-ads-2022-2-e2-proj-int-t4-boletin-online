@@ -1,7 +1,8 @@
 
 # Metodologia
 
-A  **metodologia**  contempla  as  definições  de  ferramental  utilizado  pela  **equipe**,  tanto  para  a manutenção dos códigos e demais ***artefatos***, quanto para a **organização do time na execução** das ***tarefas do projeto***.
+A Partir do problema levantado pelos idealizadores do projeto, desenvolvemos as histórias de usuários com as suas devidas especificações para o desdobramento de uma aplicação web. Com o objetivo de trabalhar com boas práticas de desenvolvimento de software adotamos alguns processos como o controle de versionamento de código que permite que desenvolvedores executem seus trabalhos relecionados as tarefas do projeto ao mesmo tempo em várias frentes distintas, tendo total controle das entregas e versões, regidas por um fluxo de trabalho ágil e horizontal. Para desenvolver o trabalho utilizaremos o SCRUM onde cada membro do time possui um papel relacionado a metodologia a ser aplicada, permitindo assim que possamos ter a visibilidade e agilidade nos ciclos de construção e manutenção dos códigos e artefatos relacionados ao software, Boletim Online. 
+
 
 ## Controle de Versão
 
