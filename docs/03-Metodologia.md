@@ -57,7 +57,7 @@ Para  organização  e  distribuição  das  tarefas  do  projeto,  a  equipe  e
 O quadro ***KANBAN*** do grupo no **GitHub** está disponível através da **URL:** 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/projects e é apresentado, no estado atual, na Figura abaixo.
 
-<Img src="">
+<Img src="https://user-images.githubusercontent.com/59934631/191128801-7d15aec7-1495-43f5-9131-43a6dadffd65.png">
 
 ### Ferramentas
 
