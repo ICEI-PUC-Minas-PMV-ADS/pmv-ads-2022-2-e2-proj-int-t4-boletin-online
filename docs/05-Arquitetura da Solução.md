@@ -25,7 +25,7 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 ## Projeto da Base de Dados
 
-O projeto da base de dados descrito a seguir corresponde à representação das entidades e relacionamentos identificadas no Modelo DER que deu origem ao MER, no formato de tabelas, com colunas e chaves primárias e estrangeiras necessárias para representar corretamente as restrições de integridade.
+O projeto da base de dados descrito a seguir corresponde à representação das entidades e relacionamentos identificadas no Modelo DER que deu origem ao MER, no formato de tabelas, com colunas e chaves primárias e estrangeiras que representam as restrições de integridade.
  
 
 
