@@ -9,19 +9,10 @@ O diagrama de fluxo e wireframes foram elaborados de forma a atender os requisit
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo 
+O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo, permitindo que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido.
 
-e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O diagrama de fluxo foi desenvolvido no Figma (https://www.figma.com/file/sArkqkp4osn8e6raBt9C0K/USER-FLOW---BOLETIM?node-id=0%3A1), e sua última versão pode ser verificada na imagem abaixo:
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
-
-<src="https://user-images.githubusercontent.com/59934631/193412264-383ee0c1-1bf8-4672-8b48-abd90bd6ec62.png">
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
-> 
 <img width="3561" alt="USER FLOW - BOLETIM" src="https://user-images.githubusercontent.com/59934631/193412264-383ee0c1-1bf8-4672-8b48-abd90bd6ec62.png">
 
 ## Wireframes
