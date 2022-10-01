@@ -38,7 +38,7 @@ Estes são os cenários de testes utilizados na realização dos testes da nossa
 |Critério de Êxito | - Visualização realizada com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Visualizar situação final do aluno** 	|
-|	Requisito Associado 	| RF-008 - Os valores de nota atribuídos em cada etapa não podem ser superiores a 10. Ao final das quatro etapas um aluno só pode obter até 40 pontos. Se possuir 28 pontos ou mais, será aprovado. Se possuir menos que 28 pontos, estará em recuperação. Na recuperação 5 pontos ou mais, aprovado, do contrário, reprovado. |
+|	Requisito Associado 	| RF-006 - Os valores de nota atribuídos em cada etapa não podem ser superiores a 10. Ao final das quatro etapas um aluno só pode obter até 40 pontos. Se possuir 28 pontos ou mais, será aprovado. Se possuir menos que 28 pontos, estará em recuperação. Na recuperação 5 pontos ou mais, aprovado, do contrário, reprovado. |
 | Objetivo do Teste 	| Verificar se o aluno e o responsável consegue visualizar a situação final (Aprovado, Recuperação ou Reprovado) por matéria. |
 | Passos 	| - Acessar o site https://botetim-escolar-exemplo.com/src/index.html <br> - Realizar o login como aluno/responsável <br> - Entrar na página principal <br> - Visualizar situação final nas matérias |
 |Critério de Êxito | - Visualização realizada com sucesso. |
