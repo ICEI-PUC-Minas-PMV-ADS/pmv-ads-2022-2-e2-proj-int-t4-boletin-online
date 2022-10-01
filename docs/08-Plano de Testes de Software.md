@@ -7,6 +7,7 @@ Estes são os cenários de testes utilizados na realização dos testes da nossa
  
 
 | **Caso de Teste** 	| **CT-01 – Inserir alunos** 	|
+|:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir ao coordenador inserir novos alunos. |
 | Objetivo do Teste 	| Verificar se o coordenador consegue inserir novos alunos. |
 | Passos 	| - Acessar o site https://botetim-escolar-exemplo.com/src/index.html <br> - Realizar o login como coordenador <br> - Clicar no botão cadastro de alunos <br> - Selecionar a série e a turma que o aluno vai ser cadastrado <br> - Preencher os campos solicitados com os dados do aluno <br> - Clicar em incluir |
