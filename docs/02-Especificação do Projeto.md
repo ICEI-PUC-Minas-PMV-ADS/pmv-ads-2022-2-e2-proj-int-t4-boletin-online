@@ -42,9 +42,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| O site deve permitir ao coordenador inserir novos professores nas matérias | ALTA |
 |RF-003| O site deve permitir ao coordenador lançar e editar as notas dos alunos | ALTA |
 |RF-004| O site deve permitir ao professor lançar e editar as notas dos alunos nas matérias em que estiver cadastrado | ALTA |
-|RF-005| O site deve permitir ao aluno visualizar as notas por matéria | ALTA |
-|RF-006| O site deve permitir ao responsavel visualizar as notas por matéria | ALTA |
-|RF-007| Os valores de nota atribuídos em cada etapa não podem ser superiores a 10. Ao final das quatro etapas um aluno só pode obter até 40 pontos. Se possuir 28 pontos ou mais, será aprovado. Se possuir menos que 28 pontos, estará em recuperação. Na recuperação 5 pontos ou mais, aprovado, do contrário, reprovado | ALTA |
+|RF-005| O site deve permitir ao aluno e ao responsável visualizar as notas por matéria | ALTA |
+|RF-006| Os valores de nota atribuídos em cada etapa não podem ser superiores a 10. Ao final das quatro etapas um aluno só pode obter até 40 pontos. Se possuir 28 pontos ou mais, será aprovado. Se possuir menos que 28 pontos, estará em recuperação. Na recuperação 5 pontos ou mais, aprovado, do contrário, reprovado | ALTA |
 
 ### Requisitos não Funcionais
 
