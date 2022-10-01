@@ -14,5 +14,6 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 > - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
 
-<img width="199" alt="Teste01" src="https://user-images.githubusercontent.com/109739949/193423736-c186f36d-c9d6-448a-98dc-ad64fde175a9.png">
+![image](https://user-images.githubusercontent.com/90806252/193423849-65b0cee8-a4d1-4f85-b299-3752b0946922.png)
+
 
