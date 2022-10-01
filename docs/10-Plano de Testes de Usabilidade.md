@@ -13,3 +13,5 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 > - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
 > - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+> ![image](https://user-images.githubusercontent.com/90806252/193423641-6f481687-2f41-4a0e-b481-40eef38f5f37.png)
+
