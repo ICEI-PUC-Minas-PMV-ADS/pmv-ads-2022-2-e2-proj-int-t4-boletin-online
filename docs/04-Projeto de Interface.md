@@ -19,7 +19,9 @@ O diagrama de fluxo foi desenvolvido no Figma (https://www.figma.com/file/sArkqk
 
 Os wireframes são protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-Os wireframes da aplicação foram desenvolvidos no Figma (https://www.figma.com/file/VH7Y52FoptNR19AXeWp0nL/Boletim-escolar?node-id=0%3A1) e podem ser conferidos nas imagens abaixo:
+Os wireframes da aplicação foram desenvolvidos no Figma (https://www.figma.com/file/VH7Y52FoptNR19AXeWp0nL/Boletim-escolar?node-id=0%3A1), podem ser conferidos nas imagens abaixo e no link a seguir os wireframes interativos (https://www.figma.com/proto/VH7Y52FoptNR19AXeWp0nL/Boletim-escolar?node-id=72%3A28&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A4)
+
+
 
 ### Tela Login
 ![image](https://user-images.githubusercontent.com/90806252/193424418-dadc15b3-f9e5-489a-a9d7-a121bf8d3be8.png)
