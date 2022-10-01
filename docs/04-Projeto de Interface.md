@@ -13,7 +13,7 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 O diagrama de fluxo foi desenvolvido no Figma (https://www.figma.com/file/sArkqkp4osn8e6raBt9C0K/USER-FLOW---BOLETIM?node-id=0%3A1), e sua última versão pode ser verificada na imagem abaixo:
 
-<img width="4452" alt="USER FLOW - BOLETIM" src="https://user-images.githubusercontent.com/59934631/193428265-6d446638-2817-4d6d-b64f-f8920d93cce3.png">
+<img width="4452" alt="USER FLOW - BOLETIM" src="https://user-images.githubusercontent.com/59934631/193428322-899e51ff-5940-4362-a2d7-430789dcdf45.png">
 
 ## Wireframes
 
