@@ -17,10 +17,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Test
 
 ### Teste de usabilidade 01
 <img width="199" alt="Teste01" src="https://user-images.githubusercontent.com/109739949/193424399-4cb2c512-b1ce-40bf-965b-c9e6459cebeb.png">
-Teste de usabilidade 02
+
+### Teste de usabilidade 02
 <img width="199" alt="Teste02" src="https://user-images.githubusercontent.com/109739949/193424451-ffe9d441-93a9-445e-ac0c-99e2c5953fb4.png">
 
-Teste de usabilidade 03
+### Teste de usabilidade 03
 <img width="194" alt="Teste03" src="https://user-images.githubusercontent.com/109739949/193424464-6e03c253-3f9c-4429-90a7-eb5394e91aea.png">
 
 Teste de usabilidade 04
