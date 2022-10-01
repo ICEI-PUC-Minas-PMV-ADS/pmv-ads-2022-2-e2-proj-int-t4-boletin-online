@@ -56,7 +56,7 @@ Os wireframes da aplicação foram desenvolvidos no Figma (https://www.figma.com
 ### Tela Coordenador - Selecionar aluno
 <img width="400" alt="Selecionar aluno" src="https://user-images.githubusercontent.com/59934631/193425840-d93154ab-6cdb-4051-ac68-ff75c5098615.png">;
 ### Tela Coordenador - Lançamento de nota do aluno
-<img width="400" alt="Selecionar aluno" src="https://user-images.githubusercontent.com/59934631/193425853-0b9bdf8c-d398-43e2-93ed-b93fb45194d1.png";
+<img width="400" alt="Selecionar aluno" src="https://user-images.githubusercontent.com/59934631/193425853-0b9bdf8c-d398-43e2-93ed-b93fb45194d1.png">;
 
 
 
