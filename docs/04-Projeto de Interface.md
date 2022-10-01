@@ -23,6 +23,20 @@ Os wireframes da aplicação foram desenvolvidos no Figma (https://www.figma.com
 
 ### Tela Login
 ![image](https://user-images.githubusercontent.com/90806252/193424418-dadc15b3-f9e5-489a-a9d7-a121bf8d3be8.png)
+### Tela Boletim de aluno
+![image](https://user-images.githubusercontent.com/90806252/193424633-60a8e7d7-1b44-4f6c-be1c-638a85f7e865.png)
+### Tela Inicial Professor
+![image](https://user-images.githubusercontent.com/90806252/193424661-17998c0c-71df-4313-8d2f-9e4394ee9ac7.png)
+### Tela Professor - Seleção de disciplina
+![image](https://user-images.githubusercontent.com/90806252/193424694-b3888873-6cdc-412b-8275-feb825f7cedf.png)
+### Tela Professor - Seleção de aluno
+![image](https://user-images.githubusercontent.com/90806252/193424722-03d578f2-2ecf-4d45-9360-d742515d47d9.png)
+### Tela Professor - Lançamento de nota do aluno
+![image](https://user-images.githubusercontent.com/90806252/193424780-0f994757-25ca-49a6-b5a1-b7f0a66e2e9d.png)
+
+
+
+
 
 
 
