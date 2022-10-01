@@ -24,7 +24,7 @@ Os wireframes da aplicação foram desenvolvidos no Figma (https://www.figma.com
 
 
 ### Tela Login
-<img width="600" alt="Tela Login" src="https://user-images.githubusercontent.com/90806252/193424418-dadc15b3-f9e5-489a-a9d7-a121bf8d3be8.png>
+<img width="600" alt="Tela Login" src="https://user-images.githubusercontent.com/90806252/193424418-dadc15b3-f9e5-489a-a9d7-a121bf8d3be8.png">
 
 ### Tela Boletim de aluno
 ![image](https://user-images.githubusercontent.com/90806252/193424633-60a8e7d7-1b44-4f6c-be1c-638a85f7e865.png)
