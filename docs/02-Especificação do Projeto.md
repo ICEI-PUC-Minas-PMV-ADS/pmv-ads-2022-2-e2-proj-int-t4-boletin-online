@@ -95,5 +95,6 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-![diagrama de casos de uso](https://user-images.githubusercontent.com/103431797/193059842-c2e17fc4-5cc0-457d-9b83-ea365ad60ab2.jpeg)
+![0be78438-330b-425a-a19d-6b00a1adf7b8](https://user-images.githubusercontent.com/103431797/193436308-c560d170-21a0-426c-b1d9-816dfba1353d.jpg)
+
 
