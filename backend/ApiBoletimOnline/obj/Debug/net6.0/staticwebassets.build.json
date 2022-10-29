@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dZ6McOETz9nLE8B2CnMSqiEPGD0la/gzNo4ZLymcJak=",
+  "Source": "ApiBoletimOnline",
+  "BasePath": "_content/ApiBoletimOnline",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
