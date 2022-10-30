@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t0OE0waJHtbUs2Iq++23wqXALhIWCNSqvjm5MenMKLT1qVJK8jfDsd3lcniaFxP73yLQFWWSrYgKqJexN+QWMA==",
+  "dgSpecHash": "2cyou18SO8U849EO6mvTW0EjZBDziDtU/TDemsg8b+xk8C5Tt6zMe93NKRg78ORDMk2tqimcx4Y/Z1zqvN0xdQ==",
   "success": true,
-  "projectFilePath": "/home/thata/RiderProjects/BoletimOnline.Api/BoletimOnline.Api/BoletimOnline.Api.csproj",
+  "projectFilePath": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/BoletimOnline.Api.csproj",
   "expectedPackageFiles": [
     "/home/thata/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/thata/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",

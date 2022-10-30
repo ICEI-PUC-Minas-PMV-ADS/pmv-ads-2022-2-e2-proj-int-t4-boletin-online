@@ -2194,11 +2194,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thata/RiderProjects/BoletimOnline.Api/BoletimOnline.Api/BoletimOnline.Api.csproj",
+      "projectUniqueName": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/BoletimOnline.Api.csproj",
       "projectName": "BoletimOnline.Api",
-      "projectPath": "/home/thata/RiderProjects/BoletimOnline.Api/BoletimOnline.Api/BoletimOnline.Api.csproj",
+      "projectPath": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/BoletimOnline.Api.csproj",
       "packagesPath": "/home/thata/.nuget/packages/",
-      "outputPath": "/home/thata/RiderProjects/BoletimOnline.Api/BoletimOnline.Api/obj/",
+      "outputPath": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/thata/.nuget/NuGet/NuGet.Config"
