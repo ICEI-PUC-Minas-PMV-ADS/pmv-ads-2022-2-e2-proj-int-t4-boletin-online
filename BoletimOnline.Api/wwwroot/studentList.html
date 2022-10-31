@@ -234,7 +234,7 @@
             cursor: pointer;
             border-radius: 15px;
             height: 40px;
-            width: 100px;
+            width: 150px;
         }
 
         .novosalunos{
@@ -282,7 +282,7 @@
         <li class="logo1"><img src="images/Group 9.png" alt=""></li>
         <li class="elipse"><img src="images/Ellipse 4.svg" alt=""></li>
         <li class="icon-perfill"><img src="images/icon-perfil.svg" alt=""></li>
-        <li class="nome-site"><a href=""> OLETIM ESCOLAR</a></li>
+        <li class="nome-site"><a href="">OLETIM ESCOLAR</a></li>
         <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
         <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
         <li class="barrinha"><a href="">|</a></li>
@@ -292,13 +292,11 @@
 
 <main id="mainStudent" class="conteudo">
     <!--Espaço para o conteudo de cada tela-->
-    <h3 class="titulo">ALUNOS 5º ANO A</h3>
-    <div class="pesquisar">
-        PESQUISAR
-    </div>
+    <h3 id="titlePage" class="titulo"></h3>
+    <input id="searchStudentByName" placeholder="pesquisar" class="pesquisar" />
     <div>
-        <button class="inserir">INSERIR</button>
-        <button onclick="go_courseList()" class="novosalunos">NOVOS ALUNOS</button>
+        <button id="buttonsearch" class="inserir">PESQUISAR</button>
+        <button id="buttoncreateStudent" class="novosalunos">NOVOS ALUNOS</button>
     </div>
     <div id=leruaite">
     
@@ -325,8 +323,9 @@
     </div>
 </footer>
 </body>
-<script src="site.js" asp-append-version="true"></script>
+<script src="student.js" asp-append-version="true"></script>
 <script type="text/javascript">
     getStudents();
+    setCourseDescription();
 </script>
 </html>

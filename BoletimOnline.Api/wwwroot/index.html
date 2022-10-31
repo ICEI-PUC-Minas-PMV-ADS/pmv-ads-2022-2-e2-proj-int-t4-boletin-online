@@ -414,35 +414,9 @@
     <hr>
 
 
-    <div class="turmas">
-        <ul class="primeirafileira">
-            <li class="botao1-1"><button>5º ANO A</button></li>
-            <li class="botao1-2"><button>5º ANO B</button></li>
-            <li class="botao1-3"><button>5º ANO C</button></li>
-            <li class="botao1-4"><button>5º ANO D</button></li>
-        </ul>
-
-        <ul class="segundafileira">
-            <li class="botao2-1"><button>6º ANO A</button></li>
-            <li class="botao2-2"><button>6º ANO B</button></li>
-            <li class="botao2-3"><button>6º ANO C</button></li>
-            <li class="botao2-4"><button>6º ANO D</button></li>
-        </ul>
-
-        <ul class="terceirafileira">
-            <li class="botao3-1"><button>7º ANO A</button></li>
-            <li class="botao3-2"><button>7º ANO B</button></li>
-            <li class="botao3-3"><button>7º ANO C</button></li>
-            <li class="botao3-4"><button>7º ANO D</button></li>
-        </ul>
-
-        <ul class="quartafileira">
-            <li onclick="go_studentList()" class="botao4-1"><button>8º ANO A</button></li>
-            <li class="botao4-2"><button>8º ANO B</button></li>
-            <li class="botao4-3"><button>8º ANO C</button></li>
-            <li class="botao4-4"><button>8º ANO D</button></li>
-        </ul>
-    </div>
+        <ol id="courselist" class="turmas">
+        
+        </ol>
     <br><br><br>
     <br><br><br><br><br><br><br><br><br> <br><br><br>
 </main>
@@ -465,5 +439,8 @@
     </div>
 </footer>
 </body>
-<script src="site.js" asp-append-version="true"></script>
+<script src="courses.js" asp-append-version="true"></script>
+<script type="text/javascript">
+    getCourses();
+</script>
 </html>

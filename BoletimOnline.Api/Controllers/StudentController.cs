@@ -28,7 +28,7 @@ namespace BoletimOnline.Api.Controllers;
         }
         
         [HttpGet]
-        [Route("students/name&course")]
+        [Route("students/search")]
         public async Task<IActionResult> GetByNameAsync(
             [FromServices] ApplicationDbContext context,
             [FromQuery] string name,
