@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template padrão</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+*{
+margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+html, body{
+    background: linear-gradient(180deg, rgba(51,135,214,1) 0%, rgba(47,46,65,1) 100%);
+    height: 100%;    
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.inicio{
+    position: absolute;
+    left: 915px;
+    top: 26px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nome-perfil{
+    position: absolute;
+    left: 1030px;
+    top: 26px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.barrinha{
+    position: absolute;
+    left: 1000px;
+    top: 26px;
+    color: #ffffff;
+}
+
+.conteudo{
+    padding: 15px;
+    align-items: center;
+    display: flexbox;
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 100px; 
+}
+ 
+.buttonstyle{
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    width: 553px;
+    height: 77px;
+    background: #D7D7D7;
+    border:none;
+    border-radius: 30px;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Abel';
+    text-align: center;
+}
+
+.telaInicial{
+    align-items: center;
+}
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <ul class="top">
+            <li class="logo"><img src="img\blogo.svg" alt="Logo do Boletim"></li>
+            <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
+            <li class="inicio"><a href="login.html">INICIO </a></li>
+            <li class="barrinha"><a href="">|</a></li>            
+        </ul>
+    </header>
+   
+    <h3 class="titulo">COORDENADOR</h3>
+    <hr>
+
+    <main class="conteudo">
+
+        
+
+        <div class="telaInicial">
+
+            <a href="Coordenador - Cadastro de Alunos.html"><button class="buttonstyle">CADASTRO DE ALUNOS</button></a>
+            <br><br>
+            <button class="buttonstyle">CADASTRO DE PROFESSORES</button>
+            <br><br>
+            <button class="buttonstyle">LANÇAR NOTAS DE ALUNOS</button>
+          
+        </div>    
+               
+    </main> 
+
+    <footer>
+        <br><br>  
+        <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+        <br><br>         
+        <img class="img-email" src="img/icon-email.svg"></a>
+        <a href=""> email@msf.com.br</a> 
+        <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+    </footer>
+
+
+</body>
+</html>
