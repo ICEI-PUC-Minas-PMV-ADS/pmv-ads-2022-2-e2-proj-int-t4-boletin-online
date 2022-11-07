@@ -12,7 +12,7 @@ Estes são os cenários de testes utilizados na realização dos testes da nossa
 | Objetivo do Teste 	| Verificar se o coordenador consegue inserir novos alunos. |
 | Passos 	| - Acessar o site https://botetim-escolar-exemplo.com/src/index.html <br> - Realizar o login como coordenador <br> - Clicar no botão cadastro de alunos <br> - Selecionar a série e a turma que o aluno vai ser cadastrado <br> - Preencher os campos solicitados com os dados do aluno <br> - Clicar em incluir |
 |Critério de Êxito | - Aluno adicionado com sucesso. |
-|Dados de Entrada | - Login de coordenador: admin; senha: admin. <br> - Selecionar a turma: 5º ano B. <br> - Dados para cadastro do aluno: Nome = João da Silva; CPF = 00100000111; Data de Nascimento = 01/01/2012; Número Matrícula = 00100000111; Sexo = Masculino; Curso = Fundamental; Nome Responsável = José da Silva; CPF = 11100010110; Email = josedasilva@gmail.com; Login = 887562; Senha = 00100000111.|
+|Dados de Entrada | - Login de coordenador: admin; senha: admin. <br> - Selecionar a turma: 5º ano B. <br> - Dados para cadastro do aluno: Nome = João da Silva; CPF = 00100000111; Data de Nascimento = 01/01/2012; Número Matrícula = 001; Sexo = Masculino; Curso = Fundamental; Nome Responsável = José da Silva; CPF = 11100010110; Email = josedasilva@gmail.com; Login = 887562; Senha = 00100000111.|
 |  	|  	|
 | **Caso de Teste** 	| **CT-02 – Inserir professores** 	|
 |	Requisito Associado 	| RF-002 - O site deve permitir ao coordenador inserir novos professores nas matérias. |
