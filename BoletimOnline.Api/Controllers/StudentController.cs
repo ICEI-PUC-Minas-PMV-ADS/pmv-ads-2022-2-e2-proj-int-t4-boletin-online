@@ -106,12 +106,13 @@ namespace BoletimOnline.Api.Controllers;
         [Route(template:"students")]
         public async Task<IActionResult> PostNewStudentAsync(
             [FromServices] ApplicationDbContext context,
-            [FromBody] Student newStudent)
+            [FromBody] StudentViewModels newStudent)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
 
-            var student = new Student(newStudent.IdResponsibile, newStudent.Enrollment, newStudent.Name, newStudent.IdCourse);
+            var student = new Student();
+            // var student = new Student(newStudent.IdResponsibile, newStudent.Enrollment, newStudent.Name, newStudent.IdCourse);
             
             try
             {

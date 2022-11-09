@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k5mFYIt9LYQwaR55eku51SDuKVV6N5Lr4cQlWL01NhE=",
+  "Hash": "CtUihs1kcSN/65DAJobgV9mCeUCxLsxppM5+LSO8rD4=",
   "Source": "BoletimOnline.Api",
   "BasePath": "_content/BoletimOnline.Api",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/createStudent.html"
+    },
+    {
+      "Identity": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/wwwroot/formStudent.js",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/wwwroot/",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "formStudent.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/formStudent.js"
     },
     {
       "Identity": "/home/thata/Downloads/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/BoletimOnline.Api/wwwroot/images/Ellipse 4.svg",

@@ -190,7 +190,7 @@
         }
 
 
-        .nome{
+        .nome > input{
             position: relative;
             top: 20px;
             left: 10px;
@@ -208,7 +208,7 @@
             width: 1110px;
         }
 
-        .cpf{
+        .cpf > input {
             position: relative;
             top: 25px;
             left: 10px;
@@ -226,7 +226,7 @@
             width: 505px;
         }
 
-        .dtnasc{
+        .dtnasc > input {
             position: relative;
             top: -25px;
             left: 560px;
@@ -243,7 +243,7 @@
             height: 20px;
             width: 560px;
         }
-        .disc{
+        .disc > input {
             position: relative;
             top: -20px;
             left: 10px;
@@ -261,7 +261,7 @@
             width: 400px;
         }
 
-        .turmas{
+        .turmas > input {
             position: relative;
             top: -70px;
             left: 460px;
@@ -279,7 +279,7 @@
             width: 340px;
         }
 
-        .sexo{
+        .sexo > input {
             position: relative;
             top: -120px;
             left: 850px;
@@ -297,7 +297,7 @@
             width: 270px;
         }
 
-        .campoemail{
+        .campoemail > input {
             position: relative;
             top: -115px;
             left: 10px;
@@ -315,7 +315,7 @@
             width: 1110px;
         }
 
-        .login{
+        .login > input {
             position: relative;
             top: -110px;
             left: 10px;
@@ -333,7 +333,7 @@
             width: 1110px;
         }
 
-        .senha{
+        .senha > input {
             position: relative;
             top: -105px;
             left: 10px;
@@ -410,40 +410,40 @@
 <main class="conteudo">
     <!--Espaço para o conteudo de cada tela-->
     <div class="espacodoscampos"></div>
-    <form>
+    <form id="formStudent">
         <div class="nome">
-            NOME
+        <input id="name" name="inputFormStudent" placeholder="NOME" />
         </div>
         <div class="cpf">
-            CPF
+            <input id="cpf" name="inputFormStudent" placeholder="CPF" />
         </div>
         <div class="dtnasc">
-            NUMERO DE MATRICULA
+            <input id="enrollment" name="inputFormStudent" placeholder="NUMERO DE MATRICULA" />
         </div>
         <div class="disc">
-            CURSO
+            <input  id="course" name="inputFormStudent" placeholder="CURSO" />
         </div>
         <div class="turmas">
-            NOME DO RESPONSAVEL
+            <input id="responsibile" name="inputFormStudent" placeholder="NOME DO RESPONSAVEL" />
         </div>
         <div class="sexo">
-            SEXO
+            <input id="gender" name="inputFormStudent" placeholder="SEXO" />
         </div>
         <div class="campoemail">
-            EMAIL
+            <input id="email" name="inputFormStudent" placeholder="EMAIL" />
         </div>
         <div class="login">
-            LOGIN
+            <input  id="login" name="inputFormStudent" placeholder="LOGIN" />
         </div>
         <div class="senha">
-            SENHA
+            <input  id="password" name="inputFormStudent" placeholder="SENHA" />
         </div>
     </form>
     <div>
-        <button class="salvar">Salvar</button>
+        <button id="clicksave" class="salvar">Salvar</button>
         <button class="cancelar">Cancelar</button>
     </div>
-    </div>
+    
 </main>
 
 <footer>
@@ -464,4 +464,5 @@
     </div>
 </footer>
 </body>
+<script src="formStudent.js" asp-append-version="true"></script>
 </html>

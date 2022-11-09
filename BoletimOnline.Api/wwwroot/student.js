@@ -1,6 +1,7 @@
 function getStudents() {
     let search = location.search.substring(1);
     const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}')
+    console.log(params)
     fetch(`v1/students/course?course=${params.courseId}`)
         .then(response => response.json())
         .then(data => _displayStudents(data))
@@ -11,7 +12,7 @@ function setCourseDescription() {
     let search = location.search.substring(1);
     const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
     let title = document.getElementById("titlePage");
-    console.log(params.courseName)
+    console.log(params)
     title.textContent = `ALUNOS ${params.courseName}`;
 }
 
