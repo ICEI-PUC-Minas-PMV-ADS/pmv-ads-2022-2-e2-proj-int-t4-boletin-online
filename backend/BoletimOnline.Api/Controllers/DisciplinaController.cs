@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BoletimOnline.Api;
+using BoletimOnline.Api.Data;
 using BoletimOnline.Api.Models;
 namespace BoletimOnline.Api.Controllers;
 

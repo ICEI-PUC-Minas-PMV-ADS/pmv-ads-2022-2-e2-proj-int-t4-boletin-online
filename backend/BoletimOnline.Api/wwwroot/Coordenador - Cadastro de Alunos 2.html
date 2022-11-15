@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+*{
+margin: 0;
+}
+
+.top{
+    list-style-type: none;
+    height: 70px;    
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;    
+}
+
+html, body{
+    background: linear-gradient(180deg, rgba(51,135,214,1) 0%, rgba(47,46,65,1) 100%);
+    height: 100%;    
+}
+
+
+.inicio{
+    position: absolute;
+    left: 915px;
+    top: 26px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nome-perfil{
+    position: absolute;
+    left: 1030px;
+    top: 26px;    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.barrinha{
+    position: absolute;
+    left: 1000px;
+    top: 26px;
+    color: #ffffff;
+}
+
+.conteudo{
+    padding: 15px;
+    height: 550px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    align-items: center;
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Abel';
+    text-align: center;
+}
+
+.espacodosalunos{
+    position:absolute;
+    left: 15%;
+    background: #d7d7d7;
+    height: 450px;
+    width: 900px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.pesquisar{
+    position: relative;
+    top: 40px;
+    left: 400px;
+    background-color: #d7d7d7;
+    border: none;
+    color: #868686;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 300px;
+}
+
+.inserir{
+    position: relative;
+    left: 750px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.novosalunos{
+    position: relative;
+    left: 755px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 210px;
+}
+
+.nomesalunos{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 40px;
+    width: 750px;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+</style>
+    
+</head>
+<body>
+    <header>
+        <ul class="top">
+            <li class="logo"><img src="img\blogo.svg" alt="Logo do Boletim"></li>
+            <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
+            <li class="inicio"><a href="login.html">INICIO </a></li>
+            <li class="barrinha"><a href="">|</a></li>            
+        </ul>
+    </header>
+
+    <h3 class="titulo">ALUNOS 5º ANO A</h3>
+    <hr>
+
+    <main class="conteudo">
+
+            <div class="pesquisar">
+                PESQUISAR
+            </div>
+            <div>
+                <button class="inserir">INSERIR</button>
+                <button class="novosalunos">NOVOS ALUNOS</button>
+            </div>
+            
+        <div class="espacodosalunos">
+            <div class="nomesalunos">
+                ANA BEATRIZ SILVEIRA
+            </div>
+            <br><br>
+            <div class="nomesalunos">
+                DANIEL PEDROSA SANTOS
+            </div>
+            <br><br>
+            <div class="nomesalunos">
+                JOÃO DA SILVA
+            </div>
+            <br><br>
+            <div class="nomesalunos">
+                MARIA CLARA DUARTE
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <br><br>  
+        <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+        <br><br>         
+        <img class="img-email" src="img/icon-email.svg"></a>
+        <a href=""> email@msf.com.br</a> 
+        <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+    </footer>
+
+</body>
+</html>

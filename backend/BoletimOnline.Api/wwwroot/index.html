@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='css/login.css'>
+    <title>Login</title>
+</head>
+
+
+
+<body>
+   
+    <nav>
+        <a id="logo" href="Landingpage.html">
+        <img src="img/blogo.svg" alt="Logo do Boletim Online">
+        </a>
+        <ul>
+            <li> </li>
+            <li> </li>
+        </ul>
+    </nav>
+        
+    <main>
+        <form class='login' method='POST'>
+            <div class='content'>
+                <span class='feedback'></span>
+                <br><br>
+                <input type='text' name='email' placeholder="E-mail">
+                <br><br>
+                <input type='password' name='password' placeholder="Senha">
+                <br><br>
+                <select name="credencial" id="selectAcess">
+                    <option value="professor">professor</option>
+                    <option value="aluno">aluno</option>
+                    <option value="coordenador">coordenador</option>
+                    <option value="administrador">administrador</option>
+                </select>
+                <br><br>
+                <button class='login-btn'>Entrar</button>
+            </div>  
+        </form>
+
+        <img src="img\imagem login.svg" alt="imagem de computador com boletim"></div>
+
+    </main> 
+        
+    <footer>
+        <br><br>  
+        <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+        <br><br>         
+        <img class="img-email" src="img/icon-email.svg"></a>
+        <a href=""> email@msf.com.br</a> 
+        <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+    </footer>
+    
+
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js'></script>
+<script src='js/models/User.js'></script>
+<script src='js/controllers/LoginController.js'></script>
+<script src='js/login.js'></script>
+</html>
