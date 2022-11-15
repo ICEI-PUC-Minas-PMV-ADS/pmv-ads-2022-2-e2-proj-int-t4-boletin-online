@@ -1,7 +1,7 @@
 ﻿using BoletimOnline.Api.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BoletimOnline.Api
+namespace BoletimOnline.Api.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -18,7 +18,10 @@ namespace BoletimOnline.Api
         public DbSet<Disciplina> Disciplina { get; set; }
 
         public DbSet<Curso> Curso { get; set; }
-
-    
+        
+        public DbSet<Responsibile> Responsibile { get; set; }
+        
+        public DbSet<Student> Student { get; set; }
+        
     }
 }
