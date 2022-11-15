@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CMSNL2d0jctus2+2eAORe8ABWRT1+9TVwLy/HmQgWSo=",
+  "Source": "BoletimOnline.Api",
+  "BasePath": "_content/BoletimOnline.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

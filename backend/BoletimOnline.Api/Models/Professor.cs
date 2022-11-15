@@ -15,7 +15,7 @@
 
         public string Email { get; set; }
 
-        public string Disciplina { get; set; }
+        public int DisciplinaId { get; set; }
 
         public string Login { get; set; }
 

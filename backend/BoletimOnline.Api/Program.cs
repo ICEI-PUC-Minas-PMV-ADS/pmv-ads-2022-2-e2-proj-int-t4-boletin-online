@@ -1,5 +1,6 @@
-using BoletimOnline.Api;
+﻿using BoletimOnline.Api;
 using Microsoft.EntityFrameworkCore;
+using BoletimOnline.Api.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,5 +28,11 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapProfessorEndpoints();
+
+app.MapCursoEndpoints();
+
+app.MapDisciplinaEndpoints();
 
 app.Run();

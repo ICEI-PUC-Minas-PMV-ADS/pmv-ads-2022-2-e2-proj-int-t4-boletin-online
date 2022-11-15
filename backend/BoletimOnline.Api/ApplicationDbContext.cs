@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BoletimOnline.Api.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BoletimOnline.Api
 {
@@ -10,11 +11,14 @@ namespace BoletimOnline.Api
 
             : base(options)
         {
-
-
-
         }
+        
+        public DbSet<Professor> Professor { get; set; }
 
+        public DbSet<Disciplina> Disciplina { get; set; }
 
+        public DbSet<Curso> Curso { get; set; }
+
+    
     }
 }
