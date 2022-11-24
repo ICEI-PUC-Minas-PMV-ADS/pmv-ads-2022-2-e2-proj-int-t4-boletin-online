@@ -6,18 +6,12 @@ public class StudentViewModels
 
     public string Cpf { get; set; }
 
-    public string Enrollment { get; set; }
+    public int Enrollment { get; set; }
 
-    public string Course { get; set; }
+    public int courseId { get; set; }
 
-    public string Responsibile { get; set; }
+    public int ResponsibileId { get; set; }
 
     public string Gender { get; set; }
 
-    public string Email { get; set; }
-
-    public string Login { get; set; }
-
-    public string Password { get; set; }
-    
 }
