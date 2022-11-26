@@ -31,8 +31,4 @@ app.UseStaticFiles();
 
 app.MapControllers();
 
-app.MapProfessorEndpoints();
-
-app.MapDisciplinaEndpoints();
-
 app.Run();
