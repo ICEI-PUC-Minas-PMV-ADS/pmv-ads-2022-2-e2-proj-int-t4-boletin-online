@@ -42,21 +42,34 @@ function _displayStudents(data) {
     data.map(student => {
         newUl = document.createElement("ul");
         newUl.textContent = `${student.name}`;
+        newUl.addEventListener('click', () => goCreateStudentView(student))
+        
+        
         newUl.setAttribute("class", "nomesalunos")
         list.appendChild(newUl);
     })
 }
 
-function goCreateStudent(id) {
-    window.location.href = `${window.location.origin}/createStudent.html?courseId=${id}`;
+function goCreateStudent(id, name) {
+    window.location.href = `${window.location.origin}/createStudent.html?courseId=${id}&courseName=${name}`;
 }
 
+function goCreateStudentView(student) {
+    let search = location.search.substring(1);
+    const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
+    const qs =  new URLSearchParams(student).toString()
+    window.location.href = `${window.location.origin}/createStudent.html?courseId=${params.courseId}&courseName=${params.courseName}&${qs}`;
+}
+
+    
 let search = location.search.substring(1);
 const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}')
 
 let buttonsearch = document.getElementById("buttonsearch");
 buttonsearch.onclick = () => getStudentsByName()
 
-let buttoncreateStudent = document.getElementById("buttoncreateStudent");
-buttoncreateStudent.onclick = () => goCreateStudent(params.courseId)
+    let buttoncreateStudent = document.getElementById("buttoncreateStudent");
+    buttoncreateStudent.onclick = () => goCreateStudent(params.courseId, params.courseName)
+
+
 

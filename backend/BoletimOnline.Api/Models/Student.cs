@@ -20,22 +20,28 @@ public class Student
 
     public int IdCourse { get; set; }
     
+    [Required]
+
+    public string Gender { get; set; }
     
-    public Student(int id, int idResponsibile, int enrollment, string name, int idCourse)
+    
+    public Student(int id, int idResponsibile, int enrollment, string name, int idCourse, string gender)
     {
         Id = id;
         IdResponsibile = idResponsibile;
         Enrollment = enrollment;
         Name = name;
         IdCourse = idCourse;
+        Gender = gender;
     }
     
-    public Student(int idResponsibile, int enrollment, string name, int idCourse)
+    public Student(int idResponsibile, int enrollment, string name, int idCourse, string gender)
     {
         IdResponsibile = idResponsibile;
         Enrollment = enrollment;
         Name = name;
         IdCourse = idCourse;
+        Gender = gender;
     }
     
     public Student()

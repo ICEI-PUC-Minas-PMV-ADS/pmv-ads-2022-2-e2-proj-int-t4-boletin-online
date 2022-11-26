@@ -15,13 +15,11 @@ public class ResponsibileController  : ControllerBase
     [Route(template:"responsibiles")]
     public async Task<IActionResult> PostNewResponsibileAsync(
         [FromServices] ApplicationDbContext context,
-        [FromBody] Responsibile newResponsibile)
+        [FromBody] Responsibile responsibile)
     {
         if (!ModelState.IsValid)
             return BadRequest();
 
-        var responsibile = new Responsibile(newResponsibile.Name, newResponsibile.Cpf, newResponsibile.Email);
-            
         try
         {
             await context.Responsibile.AddAsync(responsibile);
@@ -32,5 +30,21 @@ public class ResponsibileController  : ControllerBase
         {
             return BadRequest();
         }
+    }
+    
+    [HttpGet]
+    [Route("responsibiles/{id}")]
+    public async Task<IActionResult> GetByIdAsync(
+        [FromServices] ApplicationDbContext context,
+        [FromRoute] int id)
+    {
+        var responsibile = await context
+            .Responsibile
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == id);
+
+        return responsibile == null
+            ? NotFound()
+            : Ok(responsibile);
     }
 }
