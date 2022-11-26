@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ScGG4NCnVO97iCb3aPB20Tc1it3H857D0xR51ITN/qw=",
+  "Hash": "fCUT6HZYjBxyWZ5oxOrOo1OkE9l6dRViB+JhaTL5Peg=",
   "Source": "BoletimOnline.Api",
   "BasePath": "_content/BoletimOnline.Api",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BoletimOnline.Api/wwwroot",
+      "Name": "BoletimOnline.Api\\wwwroot",
       "Source": "BoletimOnline.Api",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/aluno.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\aluno.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "aluno.html",
       "AssetKind": "All",
@@ -31,13 +31,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/aluno.html"
+      "OriginalItemSpec": "wwwroot\\aluno.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/Coordenador - Cadastro de Alunos 2.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\CadastrarProfessor.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "CadastrarProfessor.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CadastrarProfessor.html"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\Coordenador - Cadastro de Alunos 2.html",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "Coordenador - Cadastro de Alunos 2.html",
       "AssetKind": "All",
@@ -48,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Coordenador - Cadastro de Alunos 2.html"
+      "OriginalItemSpec": "wwwroot\\Coordenador - Cadastro de Alunos 2.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/Coordenador - Cadastro de Alunos.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\Coordenador - Cadastro de Alunos.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "Coordenador - Cadastro de Alunos.html",
       "AssetKind": "All",
@@ -65,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Coordenador - Cadastro de Alunos.html"
+      "OriginalItemSpec": "wwwroot\\Coordenador - Cadastro de Alunos.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/coordenador.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\coordenador.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "coordenador.html",
       "AssetKind": "All",
@@ -82,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/coordenador.html"
+      "OriginalItemSpec": "wwwroot\\coordenador.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/courses.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\courses.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "courses.html",
       "AssetKind": "All",
@@ -99,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/courses.html"
+      "OriginalItemSpec": "wwwroot\\courses.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/courses.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\courses.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "courses.js",
       "AssetKind": "All",
@@ -116,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/courses.js"
+      "OriginalItemSpec": "wwwroot\\courses.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/createStudent.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\createStudent.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "createStudent.html",
       "AssetKind": "All",
@@ -133,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/createStudent.html"
+      "OriginalItemSpec": "wwwroot\\createStudent.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/css/login.css",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\css\\login.css",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -150,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/login.css"
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/css/style.css",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\css\\style.css",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -167,13 +184,81 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/style.css"
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/formStudent.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\disciplinas.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "disciplinas.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\disciplinas.html"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\disciplinas.js",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "disciplinas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\disciplinas.js"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\evento",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "evento",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\evento"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\FiltrarProfessores.js",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "FiltrarProfessores.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FiltrarProfessores.js"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\formStudent.js",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "formStudent.js",
       "AssetKind": "All",
@@ -184,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/formStudent.js"
+      "OriginalItemSpec": "wwwroot\\formStudent.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/home.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\home.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "home.html",
       "AssetKind": "All",
@@ -201,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/home.html"
+      "OriginalItemSpec": "wwwroot\\home.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/Ellipse 4.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\Ellipse 4.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/Ellipse 4.svg",
       "AssetKind": "All",
@@ -218,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Ellipse 4.svg"
+      "OriginalItemSpec": "wwwroot\\images\\Ellipse 4.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/Group 9.png",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\Group 9.png",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/Group 9.png",
       "AssetKind": "All",
@@ -235,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Group 9.png"
+      "OriginalItemSpec": "wwwroot\\images\\Group 9.png"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/icon-email.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\icon-email.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/icon-email.svg",
       "AssetKind": "All",
@@ -252,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/icon-email.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icon-email.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/icon-local.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\icon-local.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/icon-local.svg",
       "AssetKind": "All",
@@ -269,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/icon-local.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icon-local.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/icon-perfil.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\icon-perfil.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/icon-perfil.svg",
       "AssetKind": "All",
@@ -286,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/icon-perfil.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icon-perfil.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/icon-phone.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\icon-phone.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/icon-phone.svg",
       "AssetKind": "All",
@@ -303,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/icon-phone.svg"
+      "OriginalItemSpec": "wwwroot\\images\\icon-phone.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/images/Logo.png",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\images\\Logo.png",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "images/Logo.png",
       "AssetKind": "All",
@@ -320,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/Logo.png"
+      "OriginalItemSpec": "wwwroot\\images\\Logo.png"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/blogo.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\blogo.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "img/blogo.svg",
       "AssetKind": "All",
@@ -337,64 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/blogo.svg"
+      "OriginalItemSpec": "wwwroot\\img\\blogo.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/icon-email.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\icon.jpg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
-      "BasePath": "_content/BoletimOnline.Api",
-      "RelativePath": "img/icon-email.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/icon-email.svg"
-    },
-    {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/icon-phone.svg",
-      "SourceId": "BoletimOnline.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
-      "BasePath": "_content/BoletimOnline.Api",
-      "RelativePath": "img/icon-phone.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/icon-phone.svg"
-    },
-    {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/icon-place.svg",
-      "SourceId": "BoletimOnline.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
-      "BasePath": "_content/BoletimOnline.Api",
-      "RelativePath": "img/icon-place.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/icon-place.svg"
-    },
-    {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/icon.jpg",
-      "SourceId": "BoletimOnline.Api",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "img/icon.jpg",
       "AssetKind": "All",
@@ -405,13 +439,64 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/icon.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\icon.jpg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/img/imagem login.svg",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\icon-email.svg",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "img/icon-email.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon-email.svg"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\icon-phone.svg",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "img/icon-phone.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon-phone.svg"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\icon-place.svg",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "img/icon-place.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icon-place.svg"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\img\\imagem login.svg",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "img/imagem login.svg",
       "AssetKind": "All",
@@ -422,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/imagem login.svg"
+      "OriginalItemSpec": "wwwroot\\img\\imagem login.svg"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/index.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\index.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -439,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/js/app.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\app.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "js/app.js",
       "AssetKind": "All",
@@ -456,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/app.js"
+      "OriginalItemSpec": "wwwroot\\js\\app.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/js/controllers/LoginController.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\controllers\\LoginController.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "js/controllers/LoginController.js",
       "AssetKind": "All",
@@ -473,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/controllers/LoginController.js"
+      "OriginalItemSpec": "wwwroot\\js\\controllers\\LoginController.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/js/controllers/UserController.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\controllers\\UserController.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "js/controllers/UserController.js",
       "AssetKind": "All",
@@ -490,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/controllers/UserController.js"
+      "OriginalItemSpec": "wwwroot\\js\\controllers\\UserController.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/js/login.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\login.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "js/login.js",
       "AssetKind": "All",
@@ -507,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/login.js"
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/js/models/User.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\models\\User.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "js/models/User.js",
       "AssetKind": "All",
@@ -524,15 +609,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/js/models/User.js"
+      "OriginalItemSpec": "wwwroot\\js\\models\\User.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/professor.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\js\\Professores.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
-      "RelativePath": "professor.html",
+      "RelativePath": "js/Professores.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -541,13 +626,47 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/professor.html"
+      "OriginalItemSpec": "wwwroot\\js\\Professores.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/site.css",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\ListarProfessores.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "ListarProfessores.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ListarProfessores.html"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\ListarProfessoresAntigo.html",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
+      "BasePath": "_content/BoletimOnline.Api",
+      "RelativePath": "ListarProfessoresAntigo.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ListarProfessoresAntigo.html"
+    },
+    {
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\site.css",
+      "SourceId": "BoletimOnline.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "site.css",
       "AssetKind": "All",
@@ -558,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/site.css"
+      "OriginalItemSpec": "wwwroot\\site.css"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/student.js",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\student.js",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "student.js",
       "AssetKind": "All",
@@ -575,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/student.js"
+      "OriginalItemSpec": "wwwroot\\student.js"
     },
     {
-      "Identity": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/studentList.html",
+      "Identity": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\studentList.html",
       "SourceId": "BoletimOnline.Api",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/thata/Documentos/desenvolvimento/pmv-ads-2022-2-e2-proj-int-t4-boletin-online/backend/BoletimOnline.Api/wwwroot/",
+      "ContentRoot": "F:\\PFBoletim\\pmv-ads-2022-2-e2-proj-int-t4-boletin-online\\backend\\BoletimOnline.Api\\wwwroot\\",
       "BasePath": "_content/BoletimOnline.Api",
       "RelativePath": "studentList.html",
       "AssetKind": "All",
@@ -592,7 +711,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/studentList.html"
+      "OriginalItemSpec": "wwwroot\\studentList.html"
     }
   ]
 }
