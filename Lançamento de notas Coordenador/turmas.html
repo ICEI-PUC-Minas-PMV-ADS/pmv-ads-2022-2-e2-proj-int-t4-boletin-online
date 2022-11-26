@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turmas</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+*{
+margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.top{
+    list-style-type: none;
+    background-color: #3387d6;
+    height: 70px; 
+}
+
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.logo{
+    display: inline;
+    padding: 10px 16px;
+    position: absolute;
+    width: 39.71px;
+    height: 39.13px;
+    left: 22px;
+    top: 8.33px;
+}
+.logo1{
+    display: inline;
+    padding: 10px 16px;
+    position: absolute;
+    width: 39.71px;
+    height: 39.13px;
+    left: 31px;
+    top: 11.33px;
+}
+
+.nome-site{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.inicio{
+    position: absolute;
+    left: 915px;
+    top: 26px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.barrinha{
+    position: absolute;
+    left: 1000px;
+    top: 26px;
+    color: #ffffff;
+}
+
+.nome-perfil{
+    position: absolute;
+    left: 1030px;
+    top: 26px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.elipse{
+    position: absolute;
+    left: 93.05%;
+    right: 1.8%;
+    top: 1.26%;
+    bottom: 93.17%;
+}
+
+.icon-perfill{
+    position: absolute;
+    left: 93.75%;
+    right: 1.8%;
+    top: 1.90%;
+    bottom: 93.17%;
+}
+.conteudo{
+    padding: 15px;
+    position: relative;
+    height: 400px;
+    border-radius: 10px;
+    margin: 15px 20px 15px 20px;
+    background-color: white;
+    font-family: 'Inter';
+}
+
+.rodape{
+    background-color: #3387d6;
+    height: 230px;
+    width: 100%;
+    bottom: 0;
+}
+
+.rodape-logo{
+    position: absolute;
+    left: 24px;
+    top: 540px;
+}
+
+.rodape-logo2{
+    position: absolute;
+    left: 34px;
+    top: 543px;
+
+}
+
+.nome-site2{
+    position: absolute;
+    left: 66px;
+    top: 550px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.img-email{
+    position: absolute;
+    left: 595px;
+    top: 590px;
+    
+}
+
+.email{
+    position: absolute;
+    left: 650px;
+    top: 605px;
+    color: #ffffff;
+
+}
+
+.img-tel{
+    position: absolute;
+    left: 410px;
+    top: 590px;
+}
+
+.tel{
+    position: absolute;
+    left: 465px;
+    top: 605px;
+    color: #ffffff;
+}
+
+.img-local{
+    position: absolute;
+    left: 285px;
+    top: 645px;
+}
+
+.local{
+    position: absolute;
+    left: 338px;
+    top: 660px;
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Abel';
+    text-align: center;
+}
+
+button{
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 47px;
+    width: 140px;
+}
+
+.primeirafileira{
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 16%;
+    align-items: center;
+    background: none; 
+}
+
+.botao1-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+
+.segundafileira{
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 28%;
+    align-items: center;
+    background: none; 
+}
+
+.botao2-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.terceirafileira{
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 40%;
+    align-items: center;
+    background: none;
+}
+
+.botao3-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.quartafileira{
+    display: block;
+    position: absolute;
+    top: 90px;
+    left: 52%;
+    align-items: center;
+    background: none;
+}
+.botao4-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+</style>
+    
+</head>
+<body>
+    <header>
+        <ul class="top">
+            <li class="logo"><img src="Logo.png" alt="Logo do Boletim"></li>
+            <li class="logo1"><img src="Group 9.png" alt=""></li>
+            <li class="elipse"><img src="Ellipse 4.svg" alt=""></li>
+            <li class="icon-perfill"><img src="icon-perfil.svg" alt=""></li>
+            <li class="nome-site"><a href=""> OLETIM ESCOLAR</a></li>
+            <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
+            <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
+            <li class="barrinha"><a href="">|</a></li>
+            
+        </ul>
+    </header>
+
+    <main class="conteudo">
+                <!--Espaço para o conteudo de cada tela-->
+                <h3 class="titulo">LANÇAR NOTAS DE ALUNOS - TURMAS</h3>
+                <br>
+            <div class="turmas">
+                <hr>
+                <ul class="primeirafileira">
+                    <li class="botao1-1"><a href="quintoA.html"><button>5º ANO A</button></a></li>
+                    <li class="botao1-2"><a href="quintoB.html"><button>5º ANO B</button></a></li>
+                    <li class="botao1-3"><a href="quintoC.html"><button>5º ANO C</button></a></li>
+                    <li class="botao1-4"><a href="quintoD.html"><button>5º ANO D</button></a></li>
+                </ul>
+                 
+                <ul class="segundafileira">
+                    <li class="botao2-1"><a href="sextoA.html"><button>6º ANO A</button></a></li>
+                    <li class="botao2-2"><a href="sextoB.html"><button>6º ANO B</button></a></li>
+                    <li class="botao2-3"><a href="sextoC.html"><button>6º ANO C</button></a></li>
+                    <li class="botao2-4"><a href="sextoD.html"><button>6º ANO D</button></a></li>
+                </ul>
+
+                <ul class="terceirafileira">
+                    <li class="botao3-1"><a href="setimoA.html"><button>7º ANO A</button></a></li>
+                    <li class="botao3-2"><a href="setimoB.html"><button>7º ANO B</button></a></li>
+                    <li class="botao3-3"><a href="setimoC.html"><button>7º ANO C</button></a></li>
+                    <li class="botao3-4"><a href="setimoD.html"><button>7º ANO D</button></a></li>
+                </ul>
+
+                <ul class="quartafileira">
+                    <li class="botao4-1"><a href="oitavoA.html"><button>8º ANO A</button></a></li>
+                    <li class="botao4-2"><a href="oitavoB.html"><button>8º ANO B</button></a></li>
+                    <li class="botao4-3"><a href="oitavoC.html"><button>8º ANO C</button></a></li>
+                    <li class="botao4-4"><a href="oitavoD.html"><button>8º ANO D</button></a></li>
+                </ul>
+            </div> 
+            
+    </main>
+
+    <footer>
+            <div class="rodape">
+              
+                <a href=""><img class="rodape-logo" src="Logo.png" alt="Logo Boletim"></a>
+                <a href=""><img class="rodape-logo2" src="Group 9.png" alt=""></a>
+                <a href=""><h3 class="nome-site2">OLETIM ESCOLAR</h3></a>
+
+                <a href=""><img class="img-email" src="icon-email.svg"></a>
+                <a href=""><h4 class="email">email@msf.com.br</h4></a> 
+
+                <a href=""><img class="img-tel" src="icon-phone.svg" alt=""></a>
+                <a href=""><h4 class="tel">(XX) 12345678</h4></a>
+
+                <a href=""><img class="img-local" src="icon-local.svg"></a>
+                <a href=""><h4 class="local">R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Cidade Desconhecida - UF, 00000-000</h4></a>
+            </div>
+    </footer>
+</body>
+</html>
