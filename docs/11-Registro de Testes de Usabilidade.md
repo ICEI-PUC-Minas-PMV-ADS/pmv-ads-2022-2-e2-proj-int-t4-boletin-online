@@ -17,4 +17,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Registro de
 ![image](https://user-images.githubusercontent.com/109739949/204153872-8953628f-a3ba-4365-acf1-82e82c7462e5.png)
 ![image](https://user-images.githubusercontent.com/109739949/204153993-a288c092-376c-4a98-bb00-e8cd2cf667d5.png)
 ![image](https://user-images.githubusercontent.com/109739949/204154010-6d862746-363f-4bb9-9a26-343491d6f06d.png)
+![image](https://user-images.githubusercontent.com/109739949/204154736-41579190-d408-4b46-83f3-e04311b3bfff.png)
+![image](https://user-images.githubusercontent.com/109739949/204154754-09d8a301-881a-45c9-b710-f70d4e7f380d.png)
+![image](https://user-images.githubusercontent.com/109739949/204154770-7542ecbe-cf10-457c-90d9-8016975ba1c1.png)
+
 
