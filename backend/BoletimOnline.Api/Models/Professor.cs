@@ -21,5 +21,7 @@
 
         public string Senha { get; set; }
 
+        public ICollection<Nota> Notas { get; set; }
+
     }
 }

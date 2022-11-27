@@ -7,5 +7,7 @@
 
         public string Nome { get; set; }
 
+        public ICollection<Nota> Notas { get; set; }
+
     }
 }

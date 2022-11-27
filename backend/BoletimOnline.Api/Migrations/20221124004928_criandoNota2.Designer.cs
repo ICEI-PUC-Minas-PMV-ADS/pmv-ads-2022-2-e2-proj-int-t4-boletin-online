@@ -3,6 +3,7 @@ using BoletimOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BoletimOnline.Api.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20221124004928_criandoNota2")]
+    partial class criandoNota2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -81,42 +83,6 @@ namespace BoletimOnline.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Disciplina");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Nota", b =>
-                {
-                    b.Property<int>("Id_nota")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id_nota"), 1L, 1);
-
-                    b.Property<int>("CursoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("DisciplinaId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ProfessorId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("StudentId")
-                        .HasColumnType("int");
-
-                    b.Property<float>("Vl_nota")
-                        .HasColumnType("real");
-
-                    b.HasKey("Id_nota");
-
-                    b.HasIndex("CursoId");
-
-                    b.HasIndex("DisciplinaId");
-
-                    b.HasIndex("ProfessorId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("Nota");
                 });
 
             modelBuilder.Entity("BoletimOnline.Api.Models.Professor", b =>
@@ -212,61 +178,6 @@ namespace BoletimOnline.Api.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Student");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Nota", b =>
-                {
-                    b.HasOne("BoletimOnline.Api.Models.Curso", "Curso")
-                        .WithMany("Notas")
-                        .HasForeignKey("CursoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BoletimOnline.Api.Models.Disciplina", "Disciplina")
-                        .WithMany("Notas")
-                        .HasForeignKey("DisciplinaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BoletimOnline.Api.Models.Professor", "Professor")
-                        .WithMany("Notas")
-                        .HasForeignKey("ProfessorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("BoletimOnline.Api.Models.Student", "Student")
-                        .WithMany("Notas")
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Curso");
-
-                    b.Navigation("Disciplina");
-
-                    b.Navigation("Professor");
-
-                    b.Navigation("Student");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Curso", b =>
-                {
-                    b.Navigation("Notas");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Disciplina", b =>
-                {
-                    b.Navigation("Notas");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Professor", b =>
-                {
-                    b.Navigation("Notas");
-                });
-
-            modelBuilder.Entity("BoletimOnline.Api.Models.Student", b =>
-                {
-                    b.Navigation("Notas");
                 });
 #pragma warning restore 612, 618
         }

@@ -25,5 +25,8 @@ namespace BoletimOnline.Api.Data
 
         public DbSet<Coordenador> Coordenador { get; set; }
 
+        public DbSet<BoletimOnline.Api.Models.Nota> Nota { get; set; }
+
+
     }
 }

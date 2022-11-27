@@ -9,5 +9,8 @@
 
         public string Area { get; set; }
 
+
+        public ICollection<Nota> Notas { get; set; }
+
     }
 }

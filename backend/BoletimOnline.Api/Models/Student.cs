@@ -19,8 +19,9 @@ public class Student
     [Required]
 
     public int IdCourse { get; set; }
-    
-    
+    public ICollection<Nota> Notas { get; set; }
+
+
     public Student(int id, int idResponsibile, int enrollment, string name, int idCourse)
     {
         Id = id;

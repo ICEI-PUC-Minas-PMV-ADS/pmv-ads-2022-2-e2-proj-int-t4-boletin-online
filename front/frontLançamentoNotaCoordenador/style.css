@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+*{
+margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #3387d6;
+    height: 70px; 
+}
+
+  li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.logo{
+    display: inline;
+    padding: 10px 16px;
+    position: absolute;
+    width: 39.71px;
+    height: 39.13px;
+    left: 22px;
+    top: 8.33px;
+}
+.logo1{
+    display: inline;
+    padding: 10px 16px;
+    position: absolute;
+    width: 39.71px;
+    height: 39.13px;
+    left: 31px;
+    top: 11.33px;
+}
+
+.nome-site{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    
+    font-family: 'Abel';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.inicio{
+    position: absolute;
+    left: 915px;
+    top: 26px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.barrinha{
+    position: absolute;
+    left: 1000px;
+    top: 26px;
+    color: #ffffff;
+}
+
+.nome-perfil{
+    position: absolute;
+    left: 1030px;
+    top: 26px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.elipse{
+    position: absolute;
+    left: 93.05%;
+    right: 1.8%;
+    top: 1.26%;
+    bottom: 93.17%;
+}
+
+.icon-perfill{
+    position: absolute;
+    left: 93.75%;
+    right: 1.8%;
+    top: 1.90%;
+    bottom: 93.17%;
+}
+
+.conteudo{
+    width: 980px;
+    height: 320px;
+    left: 780px;
+    right: 8880;
+    top: 3000px;
+    background: #D7D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: center;
+    margin: auto;
+}
+
+.rodape{
+    background-color: #3387d6;
+    height: 120px;
+    width: 100%;
+    bottom: 0;
+    top: 100px;
+    position: relative;
+}
+.linkAlunos{
+    color: black;
+}
+.rodape-logo{
+    position: absolute;
+    left: 24px;
+    top: 30px;
+}
+
+.rodape-logo2{
+    position: absolute;
+    left: 34px;
+    top: 33px;
+
+}
+
+.nome-site2{
+    position: absolute;
+    left: 66px;
+    top: 45px;
+    
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.img-email{
+    position: absolute;
+    left: 595px;
+    top: 65px;
+    
+}
+
+.email{
+    position: absolute;
+    left: 650px;
+    top: 85px;
+    color: #ffffff;
+
+}
+
+.img-tel{
+    position: absolute;
+    left: 410px;
+    top: 65px;
+}
+
+.tel{
+    position: absolute;
+    left: 465px;
+    top: 85px;
+    color: #ffffff;
+}
+
+.img-local{
+    position: absolute;
+    left: 285px;
+    top: 115px;
+}
+
+.local{
+    position: absolute;
+    left: 338px;
+    top: 130px;
+    color: #ffffff;
+}
+.conteudo{
+    
+    width: 980px;
+    height: 320px;
+    left: 780px;
+    right: 8880;
+    top: 3000px;
+    background: #D7D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: center;
+    margin: auto;
+
+
+
+}
+.buttonGreen{
+    width: 219px;
+    height: 59px;
+    background: #2EC03C;
+    border-radius: 30px;
+    position: absolute;
+    left: 665px;
+    top: 450px;
+    
+    
+   
+}
+.buttonRed{
+    width: 226px;
+    height: 59px;
+    background: #D94141;
+    border-radius: 30px;
+    position:absolute;
+    left: 915px;
+    top: 450px;
+    
+
+}
+.button{
+    background-color: transparent;
+
+}
+.avaliacaox{
+        
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: 10px;
+    list-style: none
+
+}
+.avaliacaoy{
+    
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: 10px;
+    list-style: none
+
+}
+.trabalho{
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: 10px;
+    list-style: none
+
+
+}
+.atividade{
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: 10px;
+    list-style: none
+
+}
+.total{
+    
+    width: 200px;
+    height: 40px;
+    left: 29px;
+    right: 456px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    list-style: none
+
+}
+.nomeAluno{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+
+    
+}
+ #nota{
+    align-items: center;
+     
+     text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    align-items: center; 
+  
+    
+
+ }
+ #teste{
+    width: 15px;
+} 

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <title>Template padrão</title>
+    <link rel="stylesheet"href="./style.css">
+ 
+        
+
+    
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"><img src="images/Logo.png" alt="Logo do Boletim"></li>
+            <li class="logo1"><img src="images/Group 9.png" alt=""></li>
+            <li class="elipse"><img src="images/Ellipse 4.svg" alt=""></li>
+            <li class="icon-perfill"><img src="images/icon-perfil.svg" alt=""></li>
+            <li class="nome-site"><a href="">BOLETIM ESCOLAR</a></li>
+            <li class="nome-perfil"><a href="">JOÃO DA SILVA</a></li>
+            <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
+            <li class="barrinha"><a href="">|</a></li>
+            
+        </ul>
+
+        
+    </header>
+    <br>
+   <main class="conteudo"> 
+    <div class="nomeAluno">LANÇAR NOTAS DE ALUNOS - MATEMÁTICA 1ª  ETAPA</div>
+    
+        <div>
+
+            <table id="tabelaNota">
+                <thead>
+                    <tr>
+                        <td>Alunos(as)</td>
+                        <td>Avaliação X</td>
+                        <td>Trabalho</td>
+                        <td>Atividades</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody id="tabelaNotaBody">
+                  
+                </tbody>
+            </table>
+            
+            <style>
+                td, table {
+                    border-style: solid;
+                }
+            </style>
+
+               
+                <button type="submit" onclick="carregaTela()" class="buttonGreen">SALVAR</button>
+                <button type="submit" class="buttonRed">CANCELAR</button>
+        </ul>       
+    </main>
+    <br>
+   
+
+    <footer>
+            <div class="rodape">
+              
+                <a href=""><img class="rodape-logo" src="images/Logo.png" alt="Logo Boletim"></a>
+                <a href=""><img class="rodape-logo2" src="images/Group 9.png" alt=""></a>
+                <a href=""><h3 class="nome-site2">BOLETIM ESCOLAR</h3></a>
+
+                <a href=""><img class="img-email" src="images/icon-email.svg"></a>
+                <a href=""><h4 class="email">email@msf.com.br</h4></a> 
+
+                <a href=""><img class="img-tel" src="images/icon-phone.svg" alt=""></a>
+                <a href=""><h4 class="tel">(XX) 12345678</h4></a>
+
+                <a href=""><img class="img-local" src="images/icon-local.svg"></a>
+                <a href=""><h4 class="local">R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Cidade Desconhecida - UF, 00000-000</h4></a>
+            </div>
+    </footer>
+</body>
+</html>
