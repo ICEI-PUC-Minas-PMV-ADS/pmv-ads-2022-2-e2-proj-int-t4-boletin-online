@@ -74,7 +74,7 @@ namespace BoletimOnline.Api.Controllers;
         }
 
         [HttpPut]
-        [Route("students")]
+        [Route("students/{id}")]
         public async Task<IActionResult> PutStudentAsync(
             [FromServices] ApplicationDbContext context,
             [FromBody] Student viewModel)
@@ -107,14 +107,11 @@ namespace BoletimOnline.Api.Controllers;
         [Route(template:"students")]
         public async Task<IActionResult> PostNewStudentAsync(
             [FromServices] ApplicationDbContext context,
-            [FromBody] StudentViewModels newStudent)
+            [FromBody] Student student)
         {
             if (!ModelState.IsValid)
                 return BadRequest();
-            
-            
-            var student = new Student();
-            
+
             try
             {
                 await context.Student.AddAsync(student);

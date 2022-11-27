@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Professores</title>
+    <title>Cadastro de Alunos</title>
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
@@ -388,6 +388,25 @@
             width: 100px;
         }
 
+        .editar{
+            position: absolute;
+            top: 450px;
+            left: 1260px;
+            background-color: #3b5dd7;
+            border: none;
+            color: black;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 19px;
+            box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+            cursor: pointer;
+            border-radius: 15px;
+            height: 40px;
+            width: 100px;
+        }
+
+
 
     </style>
 
@@ -412,10 +431,10 @@
     <div class="espacodoscampos"></div>
     <form id="formStudent">
         <div class="nome">
-        <input id="name" name="inputFormStudent" placeholder="NOME" />
+            <input id="name" name="inputFormStudent" placeholder="NOME" />
         </div>
         <div class="cpf">
-            <input id="cpf" name="inputFormStudent" placeholder="CPF" />
+            <input id="gender" name="inputFormStudent" placeholder="SEXO" />
         </div>
         <div class="dtnasc">
             <input id="enrollment" name="inputFormStudent" placeholder="NUMERO DE MATRICULA" />
@@ -427,7 +446,7 @@
             <input id="responsibile" name="inputFormStudent" placeholder="NOME DO RESPONSAVEL" />
         </div>
         <div class="sexo">
-            <input id="gender" name="inputFormStudent" placeholder="SEXO" />
+            <input id="cpf" name="inputFormStudent" placeholder="CPF RESPONSÁVEL" />
         </div>
         <div class="campoemail">
             <input id="email" name="inputFormStudent" placeholder="EMAIL" />
@@ -441,7 +460,8 @@
     </form>
     <div>
         <button id="clicksave" class="salvar">Salvar</button>
-        <button class="cancelar">Cancelar</button>
+        <button id="buttoncancel" class="cancelar">Cancelar</button>
+        <button id="buttonedit" class="editar">Editar</button>
     </div>
     
 </main>
