@@ -39,6 +39,5 @@ public class CourseController  : ControllerBase
             ? NotFound()
             : Ok(course);
     }
-
-        
+    
 }

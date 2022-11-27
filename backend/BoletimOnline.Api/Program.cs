@@ -4,7 +4,7 @@ using BoletimOnline.Api.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var databaseUrl = "server=127.0.0.1;Database=Boletim;User Id=sa;Password=Secret1256;";
+var databaseUrl = "Server=tcp:boletimonline.database.windows.net,1433;Initial Catalog=Boletim;Persist Security Info=False;User ID=thaisgurgel;Password=T@1256525897;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(databaseUrl));
 
 // Add services to the container.
