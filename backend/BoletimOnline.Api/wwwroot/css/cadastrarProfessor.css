@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+
+body{
+    background:rgba(51,135,214,1);
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+ul li a {
+      opacity: 0.5;
+}
+  
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+  
+.conteudo {
+    padding: 15px;
+}
+
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;    
+}
+
+.titulo, h1{
+    font-size: 30px;
+    font-family: 'Abel';
+    text-align: center;
+    color: #ffffff;
+}
+
+fieldset{
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Abel';
+    text-align: left;
+    width: 800px;    
+    border-radius: 5px;
+    border-style: none;
+}
+
+form{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    
+      
+}
+
+.telaInicial{
+    align-items: center;
+}
+
+.buttonstyle{
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    width: 553px;
+    height: 77px;
+    background: #D7D7D7;
+    border:none;
+    border-radius: 30px;
+}
+
+.telaInicial{
+    align-items: center;  
+   
+    
+}
+
+.conteudo{
+    padding: 15px;
+    position: relative;
+    height: 400px;
+}
+
+// PAGINA COURSES
+
+button{
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 47px;
+    width: 130px;
+}
+
+.primeirafileira{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 16%;
+    align-items: center;
+    background: none;
+
+
+}
+
+.botao1-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao1-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.segundafileira{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 28%;
+    align-items: center;
+    background: none;
+}
+
+.botao2-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao2-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.terceirafileira{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    align-items: center;
+    background: none;
+
+}
+.botao3-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao3-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.quartafileira{
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 52%;
+    align-items: center;
+    background: none;
+}
+.botao4-1{
+    display: block;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-2{
+    display: block;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-3{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+.botao4-4{
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 80px;
+    align-items: center;
+    background: none;
+}
+
+
+.conteudo{
+    padding: 15px;
+    height: 550px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    align-items: center;
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Abel';
+    text-align: center;
+}
+
+.espacodosalunos{
+    position:absolute;
+    background: #d7d7d7;
+    height: 450px;
+    width: 900px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.pesquisar{
+    position: relative;
+    top: 40px;
+    left: 400px;
+    background-color: #d7d7d7;
+    border: none;
+    color: #868686;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 300px;
+}
+
+.inserir{
+    position: relative;
+    left: 750px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+}
+
+.novosalunos{
+    position: relative;
+    left: 755px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 210px;
+}
+
+.nomesalunos{
+    position: relative;
+    left: 60px;
+    top: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 40px;
+    width: 750px;
+}
+
+
+//TELA NOTA ALUNO
+
+.nomeAluno{
+    align-items: ;
+}
+
+.buttonGreen{
+    width: 219px;
+    height: 59px;
+    background: #2EC03C;
+    border-radius: 30px;    
+    border: none;
+           
+}
+.buttonRed{
+    width: 226px;
+    height: 59px;
+    background: #D94141;
+    border-radius: 30px;   
+    border: none;    
+}
+
+.buttons{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+     
+
+}
+
+.button{
+    background-color: transparent;
+
+}
+.avaliacaox{
+        
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: auto;
+
+}
+.avaliacaoy{
+    
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: auto;
+
+}
+.trabalho{
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: auto;
+
+
+}
+.atividade{
+    width: 850px;
+    height: 40px;
+    left: 29px;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    margin: auto;
+
+}
+.total{
+    
+    width: 200px;
+    height: 40px;
+    left: 29px;
+    right: 456px;
+    top: 200px;
+
+    background: #FFFFFF;
+    border-radius: 30px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    
+
+}
+.nomeAluno{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+    
+}

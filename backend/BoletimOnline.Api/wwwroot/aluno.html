@@ -13,8 +13,8 @@
 margin: 0;
 }
 
-html, body{
-    background: linear-gradient(180deg, rgba(51,135,214,1) 0%, rgba(47,46,65,1) 100%);
+body{
+    background:rgba(51,135,214,1);
     height: 100%;
 }
 
@@ -29,7 +29,19 @@ li a {
     
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
 
+}
 .nome-site{
     position: absolute;
     left: 80px;
@@ -251,18 +263,19 @@ footer{
     
 </head>
 <body>
-    <header>
-        <ul class="top">
-            <li class="logo"><img src="img\blogo.svg" alt="Logo do Boletim"></li>
-            <li class="nome-perfil"><a href="">JOÃO DA SILVA</a></li>
-            <li class="inicio"><a href="login.html">INICIO </a></li>
-            <li class="barrinha"><a href="">|</a></li>            
+    <nav>
+        <a id=logo href="#">
+            <img src="img\blogo.svg" alt="Logo do Boletim">
+        </a>
+        <ul>
+            <li><a href="">JOÃO DA SILVA</a></li>
+            <li>|</li>
+            <li><a href="index.html">INICIO </a></li>      
         </ul>
-    </header>
+    </nav>
 
     <h3 class="titulo">BOLETIM</h3>
-    <hr>
-    
+     
     <br><br>
 
    <main class="conteudo"> 
@@ -301,9 +314,10 @@ footer{
     
 
     <footer>
-        <br><br>  
+        <hr>
+        <br>
         <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
-        <br><br>         
+        <br>    
         <img class="img-email" src="img/icon-email.svg"></a>
         <a href=""> email@msf.com.br</a> 
         <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
