@@ -24,31 +24,20 @@ function displayProfessores(data)
     })
 }
 
-function goeditarProfessor(professor) {
-
-    const qs = new URLSearchParams(professor).toString()
-    window.location.href = `${window.location.origin}/CadastrarProfessor.html?${qs}`;
-}
-
-function gocriarProfessor(professor) {
-
-    const qs = new URLSearchParams(professor).toString()
-    window.location.href = `${window.location.origin}/CadastrarProfessor.html?${qs}`;
+function goCriarProfessor() {
+    let search = location.search.substring(1);
+    const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}');
+    console.log()
+    window.location.href = `${window.location.origin}/CadastrarProfessor.html?disciplinaId=${params.disciplinaId}&disciplinaNome=${params.disciplinaId}`;
 }
 
 let botaoCriarProfessor = document.getElementById("botaoCriarProfessor");
 botaoCriarProfessor.onclick = () => goCriarProfessor()
 
 
-function goCreateStudent(id) {
-    window.location.href = `${window.location.origin}/createStudent.html?courseId=200`;
+function goeditarProfessor(professor) {
+    let search = location.search.substring(1);
+    const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}');
+    const qs = new URLSearchParams(professor).toString().split("+").join("%20");
+    window.location.href = `${window.location.origin}/CadastrarProfessor.html?disciplinaId=${params.disciplinaId}&disciplinaNome=${params.disciplinaId}&${qs}`;
 }
-
-
-function goCriarProfessor() {
-    window.location.href = `${window.location.origin}/CadastrarProfessor.html`;
-}
-
-
-
-        
