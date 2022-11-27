@@ -57,7 +57,7 @@ function goCreateStudent(id, name) {
 function goCreateStudentView(student) {
     let search = location.search.substring(1);
     const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
-    const qs =  new URLSearchParams(student).toString()
+    const qs =  new URLSearchParams(student).toString().split("+").join("%20");
     window.location.href = `${window.location.origin}/createStudent.html?courseId=${params.courseId}&courseName=${params.courseName}&${qs}`;
 }
 

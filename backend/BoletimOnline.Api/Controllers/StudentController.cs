@@ -74,7 +74,7 @@ namespace BoletimOnline.Api.Controllers;
         }
 
         [HttpPut]
-        [Route("students")]
+        [Route("students/{id}")]
         public async Task<IActionResult> PutStudentAsync(
             [FromServices] ApplicationDbContext context,
             [FromBody] Student viewModel)
