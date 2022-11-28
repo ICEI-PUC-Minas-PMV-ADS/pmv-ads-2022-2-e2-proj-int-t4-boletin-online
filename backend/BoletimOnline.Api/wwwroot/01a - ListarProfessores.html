@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListarProfessores</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+
+body{
+    background:rgba(51,135,214,1);
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+ul li a {
+      opacity: 0.5;
+}
+  
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.conteudo {
+    padding: 15px;
+    height: 400px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-family: 'Inter';
+    margin: 100px; 
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;    
+}
+
+.espacoDosProfessores {
+    position: absolute;
+    left: 15%;
+    background: #d7d7d7;
+    height: 310px;
+    width: 900px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+
+.pesquisar {
+    position: relative;
+    top: 40px;
+    left: 400px;
+    background-color: #d7d7d7;
+    border: none;
+    color: #868686;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: text;
+    border-radius: 15px;
+    height: 20px;
+    width: 300px;
+}
+
+.inserir {
+    position: relative;
+    left: 750px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+}
+
+.novoProfessor {
+    position: relative;
+    left: 755px;
+    background-color: #d7d7d7;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 210px;
+}
+
+.dadosProfessor {
+    position: relative;
+    left: 60px;
+    top: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 29px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: text;
+    border-radius: 15px;
+    height: 40px;
+    width: 750px;
+    margin-bottom: 10px;
+}
+    
+</style>
+
+</head>
+<body>
+  
+    <nav>
+        <a id=logo href="#">
+            <img src="img\blogo.svg" alt="Logo do Boletim">
+        </a>
+        <ul>
+            <li><a href="">JOÃO DA SILVA</a></li>
+            <li>|</li>
+            <li><a href="index.html">INICIO </a></li>
+        </ul>
+    </nav>
+
+    <main id="mainProfessores" class="conteudo">
+        <!--Espaço para o conteudo de cada tela-->
+        <h3 id="titlePage" class="titulo"></h3>
+        <input id="searchStudentByName" placeholder="pesquisar" class="pesquisar" />
+        <div>
+            <button id="buttonsearch" class="inserir">PESQUISAR</button>
+            <a href="02 - CadastrarProfessor.html"><button id="botaoCriarProfessor" class="novoProfessor">NOVO PROFESSOR</button></a>
+        </div>
+        <div id=leruaite">
+
+        </div>
+
+        <lo id="ListarProfessores" class="espacoDosProfessores">            
+
+        </lo>
+    </main>
+
+    <footer>
+        <hr>
+        <br>
+        <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+        <br>    
+        <img class="img-email" src="img/icon-email.svg"></a>
+        <a href=""> email@msf.com.br</a> 
+        <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+    </footer>
+
+
+</body>
+<script src="js/Professores.js" asp-append-version="true"></script>
+<script type="text/javascript">
+    getProfessores();
+  
+</script>
+</html>

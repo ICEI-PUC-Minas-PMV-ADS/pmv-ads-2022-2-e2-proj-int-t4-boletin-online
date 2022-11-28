@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template padrão</title>
+    
+<style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+body{
+    background:rgba(51,135,214,1);
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+ul li a {
+      opacity: 0.5;
+}
+  
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+ 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}  
+.conteudo{
+    padding: 15px;
+    align-items: center;
+    display: flexbox;
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin: 100px; 
+}
+    
+.buttonstyle{
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+    width: 553px;
+    height: 77px;
+    background: #D7D7D7;
+    border:none;
+    border-radius: 30px;
+    cursor: pointer;            
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.titulo{
+    font-size: 35px;
+    font-family: 'Abel';
+    text-align: center;
+}
+
+.telaInicial{
+    align-items: center;
+}
+</style>
+
+
+</head>
+<body>
+    <nav>
+    <a id=logo href="#">
+        <img src="img\blogo.svg" alt="Logo do Boletim">
+    </a>
+    <ul>
+        <li><a href="">JOÃO DA SILVA</a></li>
+        <li>|</li>
+        <li><a href="index.html">INICIO </a></li>
+    </ul>
+    </nav>
+   
+    <h3 class="titulo">COORDENADOR</h3>
+
+    <main class="conteudo">
+        
+        <div class="telaInicial">
+
+            <a href="01 - ListarAluno.html"><button class="buttonstyle">CADASTRO DE ALUNOS</button></a>
+            <br><br>
+            <a href="01a - ListarProfessores.html"><button class="buttonstyle">LISTA DE PROFESSORES</button></a>
+            <br><br>
+            <a href=""><button class="buttonstyle">LANÇAR NOTA DE ALUNOS</button></a>
+          
+        </div>    
+               
+    </main> 
+
+    <footer>
+        <hr>
+        <br>
+        <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+        <br>    
+        <img class="img-email" src="img/icon-email.svg"></a>
+        <a href=""> email@msf.com.br</a> 
+        <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+    </footer>
+
+
+</body>
+</html>

@@ -27,5 +27,5 @@ function displayDisciplinas(data) {
 }
 
 function goListarProfessores(id, nome) {
-    window.location.href = `${window.location.origin}/ListarProfessores.html?disciplinaId=${id}&disciplinaNome=${nome}`;
+    window.location.href = `${window.location.origin}/01a - ListarProfessores.html?disciplinaId=${id}&disciplinaNome=${nome}`;
 }

@@ -27,5 +27,5 @@ function _displayCourses(data) {
 }
 
 function goStudentList(id, name) {
-    window.location.href = `${window.location.origin}/studentList.html?courseId=${id}&courseName=${name}`;
+    window.location.href = `${window.location.origin}/01 - ListarAluno.html?courseId=${id}&courseName=${name}`;
 }

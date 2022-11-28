@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Professores</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+body{
+    background:rgba(51,135,214,1);
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+ul li a {
+      opacity: 0.5;
+}
+  
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+ 
+.titulo, h1{
+    font-size: 30px;
+    font-family: 'Abel';
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;    
+}
+
+.nome > input{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 1110px;
+}
+
+.cpf > input {
+    position: relative;
+    top: 25px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 505px;
+}
+
+.dtnasc > input {
+    position: relative;
+    top: -25px;
+    left: 560px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 560px;
+}
+.disc > input {
+    position: relative;
+    top: -20px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 400px;
+}
+
+.turmas > input {
+    position: relative;
+    top: -70px;
+    left: 460px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 340px;
+}
+
+.sexo > input {
+    position: relative;
+    top: -120px;
+    left: 850px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 270px;
+}
+
+.campoemail > input {
+    position: relative;
+    top: -115px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 1110px;
+}
+
+.login > input {
+    position: relative;
+    top: -110px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 1110px;
+}
+
+.senha > input {
+    position: relative;
+    top: -105px;
+    left: 10px;
+    background-color: #ffffff;
+    border: none;
+    color: #868686;
+    padding: 15px 15px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor:text;
+    border-radius: 15px;
+    height: 20px;
+    width: 1110px;
+}
+
+
+.salvar{            
+    background-color: #2ec03c;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 90px;
+}
+
+.cancelar{          
+    background-color: #d94141;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
+    cursor: pointer;
+    border-radius: 15px;
+    height: 40px;
+    width: 90px;
+}
+
+
+    </style>
+
+</head>
+<body>
+    <nav>
+        <a id=logo href="#">
+            <img src="img\blogo.svg" alt="Logo do Boletim">
+        </a>
+        <ul>
+            <li><a href="">JOÃO DA SILVA</a></li>
+            <li>|</li>
+            <li><a href="index.html">INICIO </a></li>      
+        </ul>
+    </nav>
+
+    <h1> CADASTRO DE ALUNO</h1>        
+
+<main class="conteudo">
+    
+    <div class="espacodoscampos"></div>
+    <form id="formStudent">
+        <div class="nome">
+        <input id="name" name="inputFormStudent" placeholder="NOME" />
+        </div>
+        <div class="cpf">
+            <input id="cpf" name="inputFormStudent" placeholder="CPF" />
+        </div>
+        <div class="dtnasc">
+            <input id="enrollment" name="inputFormStudent" placeholder="NUMERO DE MATRICULA" />
+        </div>
+        <div class="disc">
+            <input  id="course" name="inputFormStudent" placeholder="CURSO" />
+        </div>
+        <div class="turmas">
+            <input id="responsibile" name="inputFormStudent" placeholder="NOME DO RESPONSAVEL" />
+        </div>
+        <div class="sexo">
+            <input id="gender" name="inputFormStudent" placeholder="SEXO" />
+        </div>
+        <div class="campoemail">
+            <input id="email" name="inputFormStudent" placeholder="EMAIL" />
+        </div>
+        <div class="login">
+            <input  id="login" name="inputFormStudent" placeholder="LOGIN" />
+        </div>
+        <div class="senha">
+            <input  id="password" name="inputFormStudent" placeholder="SENHA" />
+        </div>
+        <div>
+            <button id="clicksave" class="salvar">Salvar</button>
+            <button class="cancelar">Cancelar</button>
+        </div>
+        
+    </form>  
+    
+
+    
+</main>
+
+    
+<footer>
+    <hr>
+    <br>
+    <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
+    <br>    
+    <img class="img-email" src="img/icon-email.svg"></a>
+    <a href=""> email@msf.com.br</a> 
+    <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
+</footer>
+
+</body>
+<script src="formStudent.js" asp-append-version="true"></script>
+</html>

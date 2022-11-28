@@ -9,80 +9,185 @@
 
         @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
 
-        body{
-    background:rgba(51,135,214,1);
-    height: 100%;
-}
+        *{
+            margin: 0;
+        }
 
+        .top{
+            list-style-type: none;
+            background-color: #3387d6;
+            height: 70px;
+        }
 
-ul {
-    display: flex;
-    gap: 48px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-  
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-  
-ul li a {
-      opacity: 0.5;
-}
-  
-ul li a:hover {
-    font-weight: bold;
-    opacity: 1;
-}
- 
-.titulo, h1{
-    font-size: 30px;
-    font-family: 'Abel';
-    text-align: center;
-    color: #ffffff;
-}
+        li a {
+            color: white;
+            text-align: center;
+            text-decoration: none;
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;  
-    margin: 10px;
-    color: #ffffff;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-}
+        }
 
-main{
-    justify-content: space-around;
-    align-items: center;
-}
+        .logo{
+            display: inline;
+            padding: 10px 16px;
+            position: absolute;
+            width: 39.71px;
+            height: 39.13px;
+            left: 22px;
+            top: 8.33px;
+        }
+        .logo1{
+            display: inline;
+            padding: 10px 16px;
+            position: absolute;
+            width: 39.71px;
+            height: 39.13px;
+            left: 31px;
+            top: 11.33px;
+        }
 
-.conteudo{
-    background-color: white;
-    font-size: 15px;
-    font-family: 'Abel';
-    text-align: left;
-    width: 1200px;    
-    border-radius: 5px;
-    
-    border-style: none;
-}
+        .nome-site{
+            position: absolute;
+            left: 80px;
+            top: 20px;
 
- footer{
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    font-size: small;
-    align-items: center;
-    text-align: center;
-    color: #ffffff;    
-}
+            font-family: 'Abel';
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 38px;
+            text-align: center;
+        }
 
+        .inicio{
+            position: absolute;
+            left: 915px;
+            top: 26px;
 
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .barrinha{
+            position: absolute;
+            left: 1000px;
+            top: 26px;
+            color: #ffffff;
+        }
+
+        .nome-perfil{
+            position: absolute;
+            left: 1030px;
+            top: 26px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .elipse{
+            position: absolute;
+            left: 93.05%;
+            right: 1.8%;
+            top: 1.26%;
+            bottom: 93.17%;
+        }
+
+        .icon-perfill{
+            position: absolute;
+            left: 93.75%;
+            right: 1.8%;
+            top: 1.90%;
+            bottom: 93.17%;
+        }
+        .conteudo{
+            height: 400px;
+            margin-bottom: 35px;
+            font-family: 'Inter';
+        }
+
+        .rodape{
+            background-color: #3387d6;
+            height: 230px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .rodape-logo{
+            position: absolute;
+            left: 24px;
+            top: 88.7%;
+        }
+
+        .rodape-logo2{
+            position: absolute;
+            left: 34px;
+            top: 89%;
+
+        }
+
+        .nome-site2{
+            position: absolute;
+            left: 66px;
+            top: 90%;
+            font-family: 'Abel';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 22px;
+            color: #ffffff;
+        }
+
+        .img-email{
+            position: absolute;
+            left: 595px;
+            top: 98%;
+
+        }
+
+        .email{
+            position: absolute;
+            left: 650px;
+            top: 101%;
+            color: #ffffff;
+
+        }
+
+        .img-tel{
+            position: absolute;
+            left: 410px;
+            top: 98%;
+        }
+
+        .tel{
+            position: absolute;
+            left: 465px;
+            top: 101%;
+            color: #ffffff;
+        }
+
+        .img-local{
+            position: absolute;
+            left: 285px;
+            top: 107%;
+        }
+
+        .local{
+            position: absolute;
+            left: 338px;
+            top: 110%;
+            color: #ffffff;
+        }
+
+        .espacodoscampos{
+            position: absolute;
+            background: #d7d7d7;
+            height: 370px;
+            width: 1310px;
+        }
 
 
         .nome > input{
@@ -248,7 +353,7 @@ main{
 
 
         .salvar{
-            position: a
+            position: absolute;
             top: 450px;
             left: 1050px;
             background-color: #2ec03c;
@@ -266,7 +371,7 @@ main{
         }
 
         .cancelar{
-            position: 
+            position: absolute;
             top: 450px;
             left: 1150px;
             background-color: #d94141;
@@ -307,21 +412,22 @@ main{
 
 </head>
 <body>
-    <nav>
-        <a id=logo href="#">
-            <img src="img\blogo.svg" alt="Logo do Boletim">
-        </a>
-        <ul>
-            <li><a href="">JOÃO DA SILVA</a></li>
-            <li>|</li>
-            <li><a href="index.html">INICIO </a></li>      
-        </ul>
-    </nav>
+<header>
+    <ul class="top">
+        <li class="logo"><img src="Logo.png" alt="Logo do Boletim"></li>
+        <li class="logo1"><img src="Group 9.png" alt=""></li>
+        <li class="elipse"><img src="Ellipse 4.svg" alt=""></li>
+        <li class="icon-perfill"><img src="icon-perfil.svg" alt=""></li>
+        <li class="nome-site"><a href=""> OLETIM ESCOLAR</a></li>
+        <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
+        <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
+        <li class="barrinha"><a href="">|</a></li>
 
-    <h1 style="text-align:center ;"> CADASTRO DE ALUNO</h1>        
+    </ul>
+</header>
 
 <main class="conteudo">
-    
+    <!--Espaço para o conteudo de cada tela-->
     <div class="espacodoscampos"></div>
     <form id="formStudent">
         <div class="nome">
@@ -352,28 +458,31 @@ main{
             <input  id="password" name="inputFormStudent" placeholder="SENHA" />
         </div>
     </form>
-    
     <div>
         <button id="clicksave" class="salvar">Salvar</button>
         <button id="buttoncancel" class="cancelar">Cancelar</button>
         <button id="buttonedit" class="editar">Editar</button>
     </div>
-    <br>
-
     
 </main>
 
-    
 <footer>
-    <hr>
-    <br>
-    <img class="img-local" src="img/icon-email.svg"> R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Belo Horizonte - MG, 00000-000</a>
-    <br>    
-    <img class="img-email" src="img/icon-email.svg"></a>
-    <a href=""> email@msf.com.br</a> 
-    <img class="img-tel" src="img/icon-phone.svg"> (31) 3333-5555</a>             
-</footer>
+    <div class="rodape">
 
+        <a href=""><img class="rodape-logo" src="Logo.png" alt="Logo Boletim"></a>
+        <a href=""><img class="rodape-logo2" src="Group 9.png" alt=""></a>
+        <a href=""><h3 class="nome-site2">OLETIM ESCOLAR</h3></a>
+
+        <a href=""><img class="img-email" src="icon-email.svg"></a>
+        <a href=""><h4 class="email">email@msf.com.br</h4></a>
+
+        <a href=""><img class="img-tel" src="icon-phone.svg" alt=""></a>
+        <a href=""><h4 class="tel">(XX) 12345678</h4></a>
+
+        <a href=""><img class="img-local" src="icon-local.svg"></a>
+        <a href=""><h4 class="local">R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Cidade Desconhecida - UF, 00000-000</h4></a>
+    </div>
+</footer>
 </body>
 <script src="formStudent.js" asp-append-version="true"></script>
 </html>

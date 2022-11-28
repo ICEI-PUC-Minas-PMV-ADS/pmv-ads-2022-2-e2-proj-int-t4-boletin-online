@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ListarProfessores</title>
+    <title>Alunos</title>
     <style>
 
         @import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
 
-        * {
+        *{
             margin: 0;
         }
 
-        .top {
+        .top{
             list-style-type: none;
             background-color: #3387d6;
             height: 70px;
@@ -23,9 +23,10 @@
             color: white;
             text-align: center;
             text-decoration: none;
+
         }
 
-        .logo {
+        .logo{
             display: inline;
             padding: 10px 16px;
             position: absolute;
@@ -34,8 +35,7 @@
             left: 22px;
             top: 8.33px;
         }
-
-        .logo1 {
+        .logo1{
             display: inline;
             padding: 10px 16px;
             position: absolute;
@@ -45,10 +45,11 @@
             top: 11.33px;
         }
 
-        .nome-site {
+        .nome-site{
             position: absolute;
             left: 80px;
             top: 20px;
+
             font-family: 'Abel';
             font-weight: 400;
             font-size: 30px;
@@ -56,10 +57,11 @@
             text-align: center;
         }
 
-        .inicio {
+        .inicio{
             position: absolute;
             left: 915px;
             top: 26px;
+
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -67,17 +69,18 @@
             line-height: 22px;
         }
 
-        .barrinha {
+        .barrinha{
             position: absolute;
             left: 1000px;
             top: 26px;
             color: #ffffff;
         }
 
-        .nome-perfil {
+        .nome-perfil{
             position: absolute;
             left: 1030px;
             top: 26px;
+
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -85,7 +88,7 @@
             line-height: 22px;
         }
 
-        .elipse {
+        .elipse{
             position: absolute;
             left: 93.05%;
             right: 1.8%;
@@ -93,15 +96,14 @@
             bottom: 93.17%;
         }
 
-        .icon-perfill {
+        .icon-perfill{
             position: absolute;
             left: 93.75%;
             right: 1.8%;
             top: 1.90%;
             bottom: 93.17%;
         }
-
-        .conteudo {
+        .conteudo{
             padding: 15px;
             height: 400px;
             margin-top: 35px;
@@ -109,26 +111,27 @@
             font-family: 'Inter';
         }
 
-        .rodape {
+        .rodape{
             background-color: #3387d6;
             height: 230px;
             width: 100%;
             bottom: 0;
         }
 
-        .rodape-logo {
+        .rodape-logo{
             position: absolute;
             left: 24px;
             top: 98%;
         }
 
-        .rodape-logo2 {
+        .rodape-logo2{
             position: absolute;
             left: 34px;
             top: 98.5%;
+
         }
 
-        .nome-site2 {
+        .nome-site2{
             position: absolute;
             left: 66px;
             top: 100%;
@@ -140,53 +143,56 @@
             color: #ffffff;
         }
 
-        .img-email {
+        .img-email{
             position: absolute;
             left: 595px;
             top: 104%;
+
         }
 
-        .email {
+        .email{
             position: absolute;
             left: 650px;
             top: 107%;
             color: #ffffff;
+
         }
 
-        .img-tel {
+        .img-tel{
             position: absolute;
             left: 410px;
             top: 104%;
         }
 
-        .tel {
+        .tel{
             position: absolute;
             left: 465px;
             top: 107%;
             color: #ffffff;
         }
 
-        .img-local {
+        .img-local{
             position: absolute;
             left: 285px;
             top: 112%;
         }
 
-        .local {
+        .local{
             position: absolute;
             left: 338px;
             top: 115%;
             color: #ffffff;
         }
 
-        .titulo {
+        .titulo{
             font-size: 35px;
             font-family: 'Abel';
             text-align: center;
         }
 
-        .espacoDosProfessores {
-            position: absolute;
+        .espacodosalunos{
+
+            position:absolute;
             left: 15%;
             background: #d7d7d7;
             height: 310px;
@@ -196,7 +202,7 @@
         }
 
 
-        .pesquisar {
+        .pesquisar{
             position: relative;
             top: 40px;
             left: 400px;
@@ -208,13 +214,13 @@
             text-decoration: none;
             font-size: 19px;
             box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
-            cursor: text;
+            cursor:text;
             border-radius: 15px;
             height: 20px;
             width: 300px;
         }
 
-        .inserir {
+        .inserir{
             position: relative;
             left: 750px;
             background-color: #d7d7d7;
@@ -231,7 +237,7 @@
             width: 150px;
         }
 
-        .novoProfessor {
+        .novosalunos{
             position: relative;
             left: 755px;
             background-color: #d7d7d7;
@@ -248,7 +254,7 @@
             width: 210px;
         }
 
-        .dadosProfessor {
+        .nomesalunos{
             position: relative;
             left: 60px;
             top: 20px;
@@ -260,7 +266,7 @@
             text-decoration: none;
             font-size: 29px;
             box-shadow: 1px 1px 1px 1px rgba(41, 39, 39, 0.2);
-            cursor: text;
+            cursor:text;
             border-radius: 15px;
             height: 40px;
             width: 750px;
@@ -270,60 +276,57 @@
 
 </head>
 <body>
-    <header>
-        <ul class="top">
-            <li class="logo"><img src="images/Logo.png" alt="Logo do Boletim"></li>
-            <li class="logo1"><img src="images/Group 9.png" alt=""></li>
-            <li class="elipse"><img src="images/Ellipse 4.svg" alt=""></li>
-            <li class="icon-perfill"><img src="images/icon-perfil.svg" alt=""></li>
-            <li class="nome-site"><a href="">OLETIM ESCOLAR</a></li>
-            <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
-            <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
-            <li class="barrinha"><a href="">|</a></li>
+<header>
+    <ul class="top">
+        <li class="logo"><img src="images/Logo.png" alt="Logo do Boletim"></li>
+        <li class="logo1"><img src="images/Group 9.png" alt=""></li>
+        <li class="elipse"><img src="images/Ellipse 4.svg" alt=""></li>
+        <li class="icon-perfill"><img src="images/icon-perfil.svg" alt=""></li>
+        <li class="nome-site"><a href="">OLETIM ESCOLAR</a></li>
+        <li class="nome-perfil"><a href="">ADRIANA SALES</a></li>
+        <li class="inicio"><a href="LandingPageBoletim.html">INICIO </a></li>
+        <li class="barrinha"><a href="">|</a></li>
 
-        </ul>
-    </header>
+    </ul>
+</header>
 
-    <main id="mainProfessores" class="conteudo">
-        <!--Espaço para o conteudo de cada tela-->
-        <h3 id="titlePage" class="titulo"></h3>
-        <input id="searchStudentByName" placeholder="pesquisar" class="pesquisar" />
-        <div>
-            <button id="buttonsearch" class="inserir">PESQUISAR</button>
-            <button id="botaoCriarProfessor" class="novoProfessor">NOVO PROFESSOR</button>
-        </div>
-        <div id=leruaite">
+<main id="mainStudent" class="conteudo">
+    <!--Espaço para o conteudo de cada tela-->
+    <h3 id="titlePage" class="titulo"></h3>
+    <input id="searchStudentByName" placeholder="pesquisar" class="pesquisar" />
+    <div>
+        <button id="buttonsearch" class="inserir">PESQUISAR</button>
+        <a href="02 - CadastrarAluno.html"><button id="buttoncreateStudent" class="novosalunos">NOVOS ALUNOS</button></a>
 
-        </div>
+    </div>
+    <div id=leruaite">
+    
+    </div>
 
-        <lo id="ListarProfessores" class="espacoDosProfessores">
+    <ol id="studentslist" class="espacodosalunos"></ol>
+</main>
 
-            
+<footer>
+    <div class="rodape">
 
-        </lo>
-    </main>
+        <a href=""><img class="rodape-logo" src="images/Logo.png" alt="Logo Boletim"></a>
+        <a href=""><img class="rodape-logo2" src="images/Group 9.png" alt=""></a>
+        <a href=""><h3 class="nome-site2">OLETIM ESCOLAR</h3></a>
 
-    <footer>
-        <div class="rodape">
+        <a href=""><img class="img-email" src="images/icon-email.svg"></a>
+        <a href=""><h4 class="email">email@msf.com.br</h4></a>
 
-            <a href=""><img class="rodape-logo" src="images/Logo.png" alt="Logo Boletim"></a>
-            <a href=""><img class="rodape-logo2" src="images/Group 9.png" alt=""></a>
-            <a href=""><h3 class="nome-site2">OLETIM ESCOLAR</h3></a>
+        <a href=""><img class="img-tel" src="images/icon-phone.svg" alt=""></a>
+        <a href=""><h4 class="tel">(XX) 12345678</h4></a>
 
-            <a href=""><img class="img-email" src="images/icon-email.svg"></a>
-            <a href=""><h4 class="email">email@msf.com.br</h4></a>
-
-            <a href=""><img class="img-tel" src="images/icon-phone.svg" alt=""></a>
-            <a href=""><h4 class="tel">(XX) 12345678</h4></a>
-
-            <a href=""><img class="img-local" src="images/icon-local.svg"></a>
-            <a href=""><h4 class="local">R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Cidade Desconhecida - UF, 00000-000</h4></a>
-        </div>
-    </footer>
+        <a href=""><img class="img-local" src="images/icon-local.svg"></a>
+        <a href=""><h4 class="local">R. Fulano de Tal da Silva, n° XXX - Bairro Aleatório, Cidade Desconhecida - UF, 00000-000</h4></a>
+    </div>
+</footer>
 </body>
-<script src="js/Professores.js" asp-append-version="true"></script>
+<script src="student.js" asp-append-version="true"></script>
 <script type="text/javascript">
-    getProfessores();
-  
+    getStudents();
+    setCourseDescription();
 </script>
 </html>

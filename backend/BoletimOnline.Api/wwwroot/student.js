@@ -50,8 +50,13 @@ function _displayStudents(data) {
     })
 }
 
+<<<<<<< Updated upstream
 function goCreateStudent(id, name) {
     window.location.href = `${window.location.origin}/createStudent.html?courseId=${id}&courseName=${name}`;
+=======
+function goCreateStudent(id) {
+    window.location.href = `${window.location.origin}/02 - CadastrarAluno.html?courseId=${id}`;
+>>>>>>> Stashed changes
 }
 
 function goCreateStudentView(student) {

@@ -24,11 +24,24 @@ function displayProfessores(data)
     })
 }
 
+<<<<<<< Updated upstream
 function goCriarProfessor() {
     let search = location.search.substring(1);
     const params = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}');
     console.log()
     window.location.href = `${window.location.origin}/CadastrarProfessor.html?disciplinaId=${params.disciplinaId}&disciplinaNome=${params.disciplinaId}`;
+=======
+function goeditarProfessor(professor) {
+
+    const qs = new URLSearchParams(professor).toString()
+    window.location.href = `${window.location.origin}/02 - CadastrarProfessor.html?${qs}`;
+}
+
+function gocriarProfessor(professor) {
+
+    const qs = new URLSearchParams(professor).toString()
+    window.location.href = `${window.location.origin}/02 - CadastrarProfessor.html?${qs}`;
+>>>>>>> Stashed changes
 }
 
 let botaoCriarProfessor = document.getElementById("botaoCriarProfessor");

@@ -78,14 +78,10 @@ fieldset{
 form{
     display:flex;
     align-items:center;
-    justify-content:space-around;
-    
+    justify-content:space-around;   
       
 }
 
-.telaInicial{
-    align-items: center;
-}
 
 .buttonstyle{
     font-family:'Inter';
@@ -99,6 +95,7 @@ form{
     background: #D7D7D7;
     border:none;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .telaInicial{
@@ -109,8 +106,9 @@ form{
 
 .conteudo{
     padding: 15px;
-    position: relative;
+   
     height: 400px;
+    justify-content: space-around;
 }
 
 // PAGINA COURSES
