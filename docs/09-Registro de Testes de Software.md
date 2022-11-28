@@ -2,11 +2,27 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+| **Caso de Teste** 	| **CT-01 – Inserir aluno** 	|
+|:---:	|:---:	|
+|	Pré-condições 	| Estar na tela cadastrar aluno logado com o perfil coordenador. |
+| Procedimento  	| 1) O ator preenche todos os campos e o campo cpf com 11 dígitos. <br> 2) O ator seleciona Salvar <br> 3) O sistema verifica se os campos foram preenchidos corretamente <br> 4) O sistema exibe a mensagem "Erro no CPF"
+| Resultado esperado| Mensagem de erro do sistema |
+![WhatsApp Image 2022-11-27 at 22 16 51](https://user-images.githubusercontent.com/103431797/204179377-3bb7eb3c-f09a-4a9b-b661-13294a765406.jpeg)
 
-## Avaliação
+| **Caso de Teste** 	| **CT-02 – Inserir Professor** 	|
+|:---:	|:---:	|
+|	Pré-condições 	| Estar na tela cadastrar professor logado com o perfil coordenador. |
+| Procedimento  	| 1) O ator não preenche todos os campos solicitados. <br> 2) O ator seleciona Salvar <br> 3) O sistema verifica se os campos foram preenchidos corretamente <br> 4) O sistema exibe a mensagem "Professor não cadastrado"
+| Resultado esperado| Mensagem de erro do sistema |
+![WhatsApp Image 2022-11-27 at 22 15 11](https://user-images.githubusercontent.com/103431797/204179583-3bfde308-43dc-41c8-8bbf-48fd5a425d8a.jpeg)
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+| **Caso de Teste** 	| **CT-03 – Login** 	|
+|:---:	|:---:	|
+|	Pré-condições 	| Estar na tela de login. |
+| Procedimento  	| 1) O ator não preenche todos os campos solicitados. <br> 2) O ator seleciona Entrar <br> 3) O sistema verifica se os campos foram preenchidos corretamente <br> 4) O sistema exibe a mensagem "Falha no login"
+| Resultado esperado| Mensagem de erro do sistema |
+![WhatsApp Image 2022-11-27 at 22 17 38](https://user-images.githubusercontent.com/103431797/204179587-40ea8dbf-7f15-457b-9966-71fcbcbacb8c.jpeg)
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+
+
+
