@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@300;700&display=swap');
+
+body{
+    background:rgba(51,135,214,1);
+    height: 100%;
+}
+
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+ul li a {
+      opacity: 0.5;
+}
+  
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Abel';
+    text-align: center;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin: 10px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.conteudo{
+    width: 980px;
+    height: 320px;
+    left: 780px;
+    right: 8880;
+    top: 3000px;
+    background: #D7D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    position: center;
+    margin: auto;
+}
+
+
+.linkAlunos{
+    color: black;
+}
+footer{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: small;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;    
+}
+
+.conteudo{
+    padding: 15px;
+}
+.conteudo{
+    
+    width: 980px;
+    height: 450px;
+    left: 780px;
+    right: 8880;
+    top: 3000px;
+    background: #D7D7D7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    align-items: center;
+    margin: auto;
+    align-items: center;
+
+}
+
+.buttonGreen{
+    width: 219px;
+    height: 59px;
+    background: #2EC03C;
+    border-radius: 30px;    
+    border: none;
+           
+}
+
+.buttonRed{
+    width: 226px;
+    height: 59px;
+    background: #D94141;
+    border-radius: 30px;   
+    border: none;
+}    
+
+.nomeAluno{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: auto;
+
+  
+}
+
+#tabelaNota{
+    align-items: center;     
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-flex;
+    align-items: center; 
+   border-style: none;
+}
+
+.buttons{
+    display: flex;
+    align-items:center;
+    justify-content:space-around;   
+
+}
+
+td, table {
+    border-style: solid;
+}
+  
