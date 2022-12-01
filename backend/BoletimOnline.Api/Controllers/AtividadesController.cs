@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BoletimOnline.Api.Data;
 using BoletimOnline.Api.Models;
+using BoletimOnline.Api.ViewModels;
 
 namespace BoletimOnline.Api.Controllers
 {
@@ -20,7 +21,7 @@ namespace BoletimOnline.Api.Controllers
         {
             _context = context;
         }
-
+    
         // GET: api/Atividades
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Atividade>>> GetAtividade()
@@ -73,36 +74,66 @@ namespace BoletimOnline.Api.Controllers
             return NoContent();
         }
 
-        // POST: api/Atividades
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Atividade>> PostAtividade(Atividade atividade)
+        [Route(template: "atividades")]
+        public async Task<IActionResult> CriarAtividade(
+            [FromServices] ApplicationDbContext context,
+            [FromBody] AtividadeViewModels atividadeViewModel)
         {
-            _context.Atividade.Add(atividade);
-            await _context.SaveChangesAsync();
+            if (!ModelState.IsValid)
+                return BadRequest();
 
-            return CreatedAtAction("GetAtividade", new { id = atividade.Id }, atividade);
-        }
-
-        // DELETE: api/Atividades/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAtividade(int id)
-        {
-            var atividade = await _context.Atividade.FindAsync(id);
-            if (atividade == null)
+            Atividade atividade = new Atividade();
+            
+            try
+            { 
+                atividade.DisciplinaId = atividadeViewModel.DisciplinaId;
+                atividade.StudentId = atividadeViewModel.StudentId;
+                atividade.CursoId = atividadeViewModel.CursoId;
+                atividade.Tipo = atividadeViewModel.Tipo;
+                atividade.Etapa = atividadeViewModel.Etapa;
+                atividade.Nota = atividadeViewModel.Nota;
+            
+              await context.Atividade.AddAsync(atividade);
+              await context.SaveChangesAsync();
+             
+                
+             //   return Created($"v1/atividade/{1}", atividade);
+            //}
+            catch (Exception e)
             {
-                return NotFound();
-            }
-
-            _context.Atividade.Remove(atividade);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool AtividadeExists(int id)
-        {
-            return _context.Atividade.Any(e => e.Id == id);
-        }
-    }
-}
+                return BadRequest("thais");
+            };
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+//         // DELETE: api/Atividades/5
+//         [HttpDelete("{id}")]
+//         public async Task<IActionResult> DeleteAtividade(int id)
+//         {
+//             var atividade = await _context.Atividade.FindAsync(id);
+//             if (atividade == null)
+//             {
+//                 return NotFound();
+//             }
+//
+//             _context.Atividade.Remove(atividade);
+//             await _context.SaveChangesAsync();
+//
+//             return NoContent();
+//         }
+//
+//         private bool AtividadeExists(int id)
+//         {
+//             return _context.Atividade.Any(e => e.Id == id);
+//         }
+//     }
+// }

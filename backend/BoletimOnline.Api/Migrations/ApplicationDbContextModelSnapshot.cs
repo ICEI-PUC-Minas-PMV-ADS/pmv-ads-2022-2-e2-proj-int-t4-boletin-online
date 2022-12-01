@@ -35,6 +35,9 @@ namespace BoletimOnline.Api.Migrations
                     b.Property<int>("DisciplinaId")
                         .HasColumnType("int");
 
+                    b.Property<int>("Etapa")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Nota")
                         .HasColumnType("decimal(18,2)");
 
