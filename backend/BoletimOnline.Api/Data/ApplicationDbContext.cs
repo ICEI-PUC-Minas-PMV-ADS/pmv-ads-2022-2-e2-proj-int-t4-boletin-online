@@ -22,6 +22,12 @@ namespace BoletimOnline.Api.Data
         public DbSet<Responsibile> Responsibile { get; set; }
         
         public DbSet<Student> Student { get; set; }
-        
+
+
+        public DbSet<CursoDisciplina> CursoDisciplina { get; set; }
+
+
+        public DbSet<Atividade> Atividade { get; set; }
+
     }
 }
