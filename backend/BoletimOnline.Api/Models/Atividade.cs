@@ -7,12 +7,18 @@ namespace BoletimOnline.Api.Models
     {
         [Key]
         public int Id { get; set; }
-
+        
+        public int DisciplinaId { get; set; }
+        
         [ForeignKey("DisciplinaId")]
         public Disciplina Disciplina { get; set; }
 
+        public int StudentId { get; set; }
+        
         [ForeignKey("StudentId")]
         public Student Student { get; set; }
+        
+        public int CursoId { get; set; }
 
         [ForeignKey("CursoId")]
         public Curso Curso { get; set; }
@@ -21,6 +27,7 @@ namespace BoletimOnline.Api.Models
 
         public decimal Nota { get; set; }
 
+        public int Etapa { get; set; }
 
 
 
