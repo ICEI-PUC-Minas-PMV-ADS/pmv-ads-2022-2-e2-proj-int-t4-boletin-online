@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using BoletimOnline.Api.Data;
 using BoletimOnline.Api.Models;
+using BoletimOnline.Api.ViewModels;
 
 namespace BoletimOnline.Api.Controllers
 {
@@ -84,13 +85,35 @@ namespace BoletimOnline.Api.Controllers
         // POST: api/Atividade
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Atividade>> PostAtividade(Atividade atividade)
+        public async Task<ActionResult<Atividade>> PostAtividade(AtividadeViewModels atividadeViewModels)
         {
           if (_context.Atividade == null)
           {
               return Problem("Entity set 'ApplicationDbContext.Atividade'  is null.");
           }
-            _context.Atividade.Add(atividade);
+
+          
+          var disciplina = _context.Disciplina
+              .Where(d => d.Id == atividadeViewModels.DisciplinaId)
+              .FirstOrDefault();
+          
+          var curso = _context.Curso
+              .Where(c => c.Id == atividadeViewModels.CursoId)
+              .FirstOrDefault();
+          
+          
+          Atividade atividade = new Atividade();
+          atividade.StudentId = atividadeViewModels.StudentId;
+          atividade.Curso = curso;
+          atividade.Disciplina = disciplina;
+          atividade.Etapa = atividadeViewModels.Etapa;
+          atividade.Nota = atividadeViewModels.Nota;
+          atividade.Tipo = atividadeViewModels.Tipo;
+          atividade.CursoId = atividadeViewModels.CursoId;
+          atividade.DisciplinaId = atividadeViewModels.DisciplinaId;
+
+
+          _context.Atividade.Add(atividade);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetAtividade", new { id = atividade.Id }, atividade);

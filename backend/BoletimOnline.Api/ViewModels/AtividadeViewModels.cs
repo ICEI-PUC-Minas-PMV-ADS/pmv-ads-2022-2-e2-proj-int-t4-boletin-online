@@ -2,6 +2,8 @@ namespace BoletimOnline.Api.ViewModels;
 
 public class AtividadeViewModels
 {
+    public int Id { get; set; }
+    
     public int DisciplinaId { get; set; }
 
     public int StudentId { get; set; }
