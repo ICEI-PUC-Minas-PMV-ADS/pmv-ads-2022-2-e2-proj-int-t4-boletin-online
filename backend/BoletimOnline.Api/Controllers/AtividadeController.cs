@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using BoletimOnline.Api.Data;
 using BoletimOnline.Api.Models;
 using BoletimOnline.Api.ViewModels;
+using Microsoft.CodeAnalysis;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
 namespace BoletimOnline.Api.Controllers
 {
@@ -41,9 +44,12 @@ namespace BoletimOnline.Api.Controllers
           {
               return NotFound();
           }
-            var atividade = await _context.Atividade.FindAsync(id);
+          
+          var atividade = _context.Atividade
+              .Where(a => a.Id == id)
+              .FirstOrDefault();
 
-            if (atividade == null)
+          if (atividade == null)
             {
                 return NotFound();
             }
@@ -51,6 +57,55 @@ namespace BoletimOnline.Api.Controllers
             return atividade;
         }
 
+        
+        [HttpGet]
+        [Route("visualizarBoletim")]
+        public async Task<IActionResult> GetByAtividadeAsync(
+            [FromServices] ApplicationDbContext context,
+            [FromQuery] int studentId,
+            [FromQuery] int courseId)
+        {
+
+            var boletim = (from a in context.Atividade
+                join d in context.Disciplina on a.DisciplinaId equals d.Id
+                join c in context.Curso on a.CursoId equals c.Id
+                join s in context.Student on a.StudentId equals s.Id
+                where a.StudentId == studentId && a.CursoId == courseId
+                orderby d.Nome ascending
+                select new
+                {
+                    NameStudent = s.Name,
+                    NameDisciplina = d.Nome,
+                    NameCourse = c.Nome,
+                    Stage = a.Etapa,
+                    Note = a.Nota
+                }).ToList().GroupBy(x => x.NameDisciplina);
+            
+            List<dynamic> BoletimviewModel = new List<dynamic>();
+            
+            foreach (var disciplina in boletim)
+            { 
+                decimal nota = 0;
+                foreach (var atividade in disciplina)
+                {
+                    nota += atividade.Note;
+           
+                }
+                
+                BoletimviewModel.Add(new {
+                    NameStudent = disciplina.FirstOrDefault()!.NameStudent,
+                    NameDisciplina = disciplina.FirstOrDefault()!.NameDisciplina,
+                    NameCourse = disciplina.FirstOrDefault()!.NameCourse,
+                    Stage = disciplina.FirstOrDefault()!.Stage,
+                    Note = Math.Round(nota /3, 2)
+                });
+            }
+            
+            return BoletimviewModel == null
+                ? NotFound()
+                : Ok(BoletimviewModel);
+        }
+        
         // PUT: api/Atividade/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
