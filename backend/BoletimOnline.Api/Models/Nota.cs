@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BoletimOnline.Api.Models
 {
@@ -9,17 +10,27 @@ namespace BoletimOnline.Api.Models
 
         public float Vl_nota { get; set; }
 
-        public virtual Student Student { get; set; }
-        //public int Student { get; set; }
+        public string aluno { get; set; }
 
-        public virtual Professor Professor { get; set; }
-        //public int Professor { get; set; }
+        public float VL_avaliacao_x { get; set; }
 
-        public virtual Disciplina Disciplina { get; set; }
-        //public int Disciplina { get; set; }
+        public float VL_avaliacao_y { get; set; }
 
-        public virtual Curso Curso { get; set; }
-        //public int Curso { get; set; }
+        public float VL_trabalho { get; set; }
+
+        public float VL_atividades { get; set; }
+
+        //public virtual Student Student { get; set; }
+        //public int StudentId { get; set; }
+
+        //public virtual Professor Professor { get; set; }
+        //public int ProfessorId { get; set; }
+
+        //public virtual Disciplina Disciplina { get; set; }
+        //public int DisciplinaId { get; set; }
+
+        //public virtual Curso Curso { get; set; }
+        //public int CursoId { get; set; }
     }
 }
 

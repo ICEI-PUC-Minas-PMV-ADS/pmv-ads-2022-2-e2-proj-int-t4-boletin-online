@@ -74,6 +74,42 @@ namespace BoletimOnline.Api.Controllers
             return NoContent();
         }
 
+        // PUT: api/Notas/5
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPut]
+        public async Task<IActionResult> PutNotas(List<Nota> notas)
+        {
+            if (notas == null)
+            {
+                return BadRequest();
+            }
+
+            for (int i = 0; i < notas.Count; i++)
+            {
+                var nota = notas[i];
+
+                _context.Entry(nota).State = EntityState.Modified;
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!NotaExists(nota.Id_nota))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+            }
+
+            return NoContent();
+        }
+
         // POST: api/Notas
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]

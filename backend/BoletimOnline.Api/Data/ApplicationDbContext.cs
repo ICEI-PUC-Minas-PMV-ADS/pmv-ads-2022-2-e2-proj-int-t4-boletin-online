@@ -1,5 +1,6 @@
 ﻿using BoletimOnline.Api.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 
 namespace BoletimOnline.Api.Data
 {
@@ -11,8 +12,13 @@ namespace BoletimOnline.Api.Data
 
             : base(options)
         {
+
         }
-        
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+        }
+
         public DbSet<Professor> Professor { get; set; }
 
         public DbSet<Disciplina> Disciplina { get; set; }
@@ -25,7 +31,7 @@ namespace BoletimOnline.Api.Data
 
         public DbSet<Coordenador> Coordenador { get; set; }
 
-        public DbSet<BoletimOnline.Api.Models.Nota> Nota { get; set; }
+        public DbSet<Nota> Nota { get; set; }
 
 
     }
