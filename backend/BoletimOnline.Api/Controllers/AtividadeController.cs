@@ -105,48 +105,53 @@ namespace BoletimOnline.Api.Controllers
                 ? NotFound()
                 : Ok(BoletimviewModel);
         }
-        
+
         // PUT: api/Atividade/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAtividade(int id, Atividade atividade)
+        [HttpPut("atualizarAtividade/{id}")]
+        public async Task<IActionResult> PutAtividade(
+            [FromServices] ApplicationDbContext context,
+            [FromBody] AtividadeViewModels viewModel)
         {
-            if (id != atividade.Id)
+
+            var atividade =  context
+                .Atividade
+                .Single(x => x.Id == viewModel.Id);
+            
+            
+            if (atividade == null)
+                return NotFound("Atividade não encontrada.");
+
+           if (viewModel.Nota < 0 || viewModel.Nota > 10)
+                return BadRequest("Nota não pode ser maior do que 10 ou menor do que 0.");
+
+           if (viewModel.Etapa > 4)
+                return BadRequest("Não é permitido etapa maior do que 4");
+           
+                try
+            {
+                atividade.Nota = viewModel.Nota;
+                context.Atividade.Update(atividade);
+                await context.SaveChangesAsync();
+                return Ok(atividade);
+            }
+            catch (Exception e)
             {
                 return BadRequest();
             }
-
-            _context.Entry(atividade).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AtividadeExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
         }
-
+            
+          
         // POST: api/Atividade
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Atividade>> PostAtividade(AtividadeViewModels atividadeViewModels)
+        public async Task<ActionResult<Atividade>> PostAtividade(AtividadeViewModels atividadeViewModels,
+            [FromServices] ApplicationDbContext context)
         {
           if (_context.Atividade == null)
           {
               return Problem("Entity set 'ApplicationDbContext.Atividade'  is null.");
           }
-
           
           var disciplina = _context.Disciplina
               .Where(d => d.Id == atividadeViewModels.DisciplinaId)
@@ -166,9 +171,34 @@ namespace BoletimOnline.Api.Controllers
           atividade.Tipo = atividadeViewModels.Tipo;
           atividade.CursoId = atividadeViewModels.CursoId;
           atividade.DisciplinaId = atividadeViewModels.DisciplinaId;
+          
+          if (atividadeViewModels.Nota < 0 || atividadeViewModels.Nota > 10)
+              return BadRequest("Nota não pode ser maior do que 10 ou menor do que 0.");
 
+          if (atividadeViewModels.Etapa > 4)
+              return BadRequest("Não é permitido etapa maior do que 4");
 
-          _context.Atividade.Add(atividade);
+          var novaAtividade = (from a in context.Atividade
+              join d in context.Disciplina on a.DisciplinaId equals d.Id
+              join c in context.Curso on a.CursoId equals c.Id
+              join s in context.Student on a.StudentId equals s.Id
+              where a.StudentId == atividadeViewModels.StudentId && 
+                    a.CursoId == atividadeViewModels.CursoId && 
+                    a.DisciplinaId == atividadeViewModels.DisciplinaId &&
+                    a.Etapa == atividadeViewModels.Etapa
+              select new
+              {
+                  Disciplina = d.Id,
+                  Stage = a.Etapa
+              }).ToList().GroupBy(x => x.Stage);
+
+          foreach (var x in novaAtividade)
+          {
+              if (x.Count() >= 3)
+                  return BadRequest("Não é permitido mais do que três atividades por bimestre.");              
+          }
+          
+              _context.Atividade.Add(atividade);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetAtividade", new { id = atividade.Id }, atividade);
