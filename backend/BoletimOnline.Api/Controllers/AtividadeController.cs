@@ -84,26 +84,39 @@ namespace BoletimOnline.Api.Controllers
             List<dynamic> BoletimviewModel = new List<dynamic>();
             
             foreach (var disciplina in boletim)
-            { 
-                decimal nota = 0;
-                foreach (var atividade in disciplina)
+            {
+                
+                var etapas = disciplina.GroupBy(x => x.Stage).ToList();
+
+
+                foreach (var etapa in etapas)
                 {
-                    nota += atividade.Note;
-           
+                    decimal nota = 0;
+                    decimal stage = 0;
+                    foreach (var notas in etapa)
+                    {
+                        nota += notas.Note;
+                        stage = notas.Stage;
+
+                    }
+
+                    BoletimviewModel.Add(new
+                    {
+                        NameStudent = disciplina.FirstOrDefault()!.NameStudent,
+                        NameDisciplina = disciplina.FirstOrDefault()!.NameDisciplina,
+                        NameCourse = disciplina.FirstOrDefault()!.NameCourse,
+                        Stage = stage,
+                        Note = Math.Round(nota / 3, 2)
+                    });
+
                 }
                 
-                BoletimviewModel.Add(new {
-                    NameStudent = disciplina.FirstOrDefault()!.NameStudent,
-                    NameDisciplina = disciplina.FirstOrDefault()!.NameDisciplina,
-                    NameCourse = disciplina.FirstOrDefault()!.NameCourse,
-                    Stage = disciplina.FirstOrDefault()!.Stage,
-                    Note = Math.Round(nota /3, 2)
-                });
             }
-            
+
+
             return BoletimviewModel == null
                 ? NotFound()
-                : Ok(BoletimviewModel);
+                : Ok(BoletimviewModel.GroupBy(x => x.NameDisciplina));
         }
 
         // PUT: api/Atividade/5
